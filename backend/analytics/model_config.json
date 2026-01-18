@@ -1,0 +1,19 @@
+{
+  "feature_columns": [
+    "coverage_ratio",
+    "rejection_rate",
+    "child_ratio",
+    "demo_update_mean",
+    "avg_churn_rate",
+    "total_spikes",
+    "avg_bio_age",
+    "avg_failure_rate",
+    "avg_child_gap",
+    "total_anomalies",
+    "demo_volatility",
+    "bio_age_normalized",
+    "spike_rate",
+    "anomaly_rate"
+  ],
+  "model_type": "GradientBoostingRegressor"
+}

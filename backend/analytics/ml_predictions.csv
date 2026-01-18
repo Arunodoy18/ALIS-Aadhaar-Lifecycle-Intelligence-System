@@ -1,0 +1,712 @@
+district_id,predicted_auth_failure_prob,actual_auth_failure_prob,risk_category,district_name,state
+D0001,11.7,12.54,Medium Risk,Anantapur,Andhra Pradesh
+D0002,11.14,10.11,Medium Risk,Chittoor,Andhra Pradesh
+D0003,17.99,6.95,High Risk,East Godavari,Andhra Pradesh
+D0004,8.03,6.86,Medium Risk,Guntur,Andhra Pradesh
+D0005,9.47,9.44,Medium Risk,Krishna,Andhra Pradesh
+D0006,4.61,3.81,Low Risk,Kurnool,Andhra Pradesh
+D0007,10.38,13.24,Medium Risk,Nellore,Andhra Pradesh
+D0008,12.48,11.64,Medium Risk,Prakasam,Andhra Pradesh
+D0009,15.5,15.81,High Risk,Srikakulam,Andhra Pradesh
+D0010,8.07,5.77,Medium Risk,Visakhapatnam,Andhra Pradesh
+D0011,10.97,12.93,Medium Risk,Vizianagaram,Andhra Pradesh
+D0012,19.48,20.23,High Risk,West Godavari,Andhra Pradesh
+D0013,6.42,4.36,Medium Risk,YSR Kadapa,Andhra Pradesh
+D0014,29.07,29.38,High Risk,Anjaw,Arunachal Pradesh
+D0015,9.23,10.1,Medium Risk,Changlang,Arunachal Pradesh
+D0016,16.77,16.38,High Risk,East Kameng,Arunachal Pradesh
+D0017,20.54,22.37,High Risk,East Siang,Arunachal Pradesh
+D0018,7.53,6.89,Medium Risk,Itanagar,Arunachal Pradesh
+D0019,5.71,5.7,Medium Risk,Kurung Kumey,Arunachal Pradesh
+D0020,7.71,7.06,Medium Risk,Lohit,Arunachal Pradesh
+D0021,14.82,15.5,Medium Risk,Lower Subansiri,Arunachal Pradesh
+D0022,19.21,18.98,High Risk,Papum Pare,Arunachal Pradesh
+D0023,13.29,14.26,Medium Risk,Tawang,Arunachal Pradesh
+D0024,16.57,16.89,High Risk,Tirap,Arunachal Pradesh
+D0025,16.82,17.57,High Risk,Upper Siang,Arunachal Pradesh
+D0026,6.88,5.67,Medium Risk,Upper Subansiri,Arunachal Pradesh
+D0027,17.87,18.6,High Risk,West Kameng,Arunachal Pradesh
+D0028,4.86,4.01,Low Risk,West Siang,Arunachal Pradesh
+D0029,7.3,7.13,Medium Risk,Baksa,Assam
+D0030,23.21,26.59,High Risk,Barpeta,Assam
+D0031,27.5,19.33,High Risk,Bongaigaon,Assam
+D0032,12.86,19.6,Medium Risk,Cachar,Assam
+D0033,28.61,30.45,High Risk,Chirang,Assam
+D0034,12.86,12.79,Medium Risk,Darrang,Assam
+D0035,29.17,31.25,High Risk,Dhemaji,Assam
+D0036,14.27,15.04,Medium Risk,Dhubri,Assam
+D0037,13.74,13.6,Medium Risk,Dibrugarh,Assam
+D0038,11.88,11.66,Medium Risk,Goalpara,Assam
+D0039,16.49,17.38,High Risk,Golaghat,Assam
+D0040,8.68,6.97,Medium Risk,Hailakandi,Assam
+D0041,6.25,5.57,Medium Risk,Jorhat,Assam
+D0042,17.24,19.47,High Risk,Kamrup,Assam
+D0043,19.55,21.28,High Risk,Kamrup Metropolitan,Assam
+D0044,19.24,20.21,High Risk,Karbi Anglong,Assam
+D0045,6.77,3.6,Medium Risk,Karimganj,Assam
+D0046,16.33,17.3,High Risk,Kokrajhar,Assam
+D0047,12.0,11.24,Medium Risk,Lakhimpur,Assam
+D0048,9.58,10.38,Medium Risk,Morigaon,Assam
+D0049,8.85,8.91,Medium Risk,Nagaon,Assam
+D0050,11.16,14.44,Medium Risk,Nalbari,Assam
+D0051,8.89,8.82,Medium Risk,Sivasagar,Assam
+D0052,7.24,6.78,Medium Risk,Sonitpur,Assam
+D0053,5.87,4.99,Medium Risk,Tinsukia,Assam
+D0054,8.73,8.78,Medium Risk,Udalguri,Assam
+D0055,11.56,16.54,Medium Risk,Araria,Bihar
+D0056,17.32,9.7,High Risk,Arwal,Bihar
+D0057,19.41,8.93,High Risk,Aurangabad,Bihar
+D0058,16.82,18.68,High Risk,Banka,Bihar
+D0059,12.28,12.07,Medium Risk,Begusarai,Bihar
+D0060,8.49,7.22,Medium Risk,Bhagalpur,Bihar
+D0061,6.71,5.37,Medium Risk,Bhojpur,Bihar
+D0062,5.9,3.77,Medium Risk,Buxar,Bihar
+D0063,12.03,13.23,Medium Risk,Darbhanga,Bihar
+D0064,6.08,18.09,Medium Risk,East Champaran,Bihar
+D0065,8.1,7.66,Medium Risk,Gaya,Bihar
+D0066,13.58,12.93,Medium Risk,Gopalganj,Bihar
+D0067,15.48,15.27,High Risk,Jamui,Bihar
+D0068,6.15,4.83,Medium Risk,Jehanabad,Bihar
+D0069,12.36,14.36,Medium Risk,Kaimur,Bihar
+D0070,11.06,18.01,Medium Risk,Katihar,Bihar
+D0071,18.03,16.6,High Risk,Khagaria,Bihar
+D0072,23.53,25.79,High Risk,Kishanganj,Bihar
+D0073,16.62,5.48,High Risk,Lakhisarai,Bihar
+D0074,10.72,10.21,Medium Risk,Madhepura,Bihar
+D0075,9.59,9.16,Medium Risk,Madhubani,Bihar
+D0076,14.25,14.21,Medium Risk,Munger,Bihar
+D0077,12.78,25.19,Medium Risk,Muzaffarpur,Bihar
+D0078,14.79,30.19,Medium Risk,Nalanda,Bihar
+D0079,9.54,17.33,Medium Risk,Nawada,Bihar
+D0080,7.86,7.26,Medium Risk,Patna,Bihar
+D0081,7.11,5.04,Medium Risk,Purnia,Bihar
+D0082,8.17,6.63,Medium Risk,Rohtas,Bihar
+D0083,14.05,13.73,Medium Risk,Saharsa,Bihar
+D0084,14.47,14.77,Medium Risk,Samastipur,Bihar
+D0085,17.6,6.46,High Risk,Saran,Bihar
+D0086,17.63,18.33,High Risk,Sheikhpura,Bihar
+D0087,16.23,11.47,High Risk,Sheohar,Bihar
+D0088,17.07,17.76,High Risk,Sitamarhi,Bihar
+D0089,5.56,4.64,Medium Risk,Siwan,Bihar
+D0090,5.38,4.35,Medium Risk,Supaul,Bihar
+D0091,11.61,15.3,Medium Risk,Vaishali,Bihar
+D0092,7.77,7.37,Medium Risk,West Champaran,Bihar
+D0093,10.03,9.09,Medium Risk,Balod,Chhattisgarh
+D0094,14.82,14.53,Medium Risk,Baloda Bazar,Chhattisgarh
+D0095,17.46,18.17,High Risk,Balrampur,Chhattisgarh
+D0096,15.01,15.35,High Risk,Bastar,Chhattisgarh
+D0097,11.89,13.33,Medium Risk,Bemetara,Chhattisgarh
+D0098,23.8,27.87,High Risk,Bijapur,Chhattisgarh
+D0099,26.92,27.86,High Risk,Bilaspur,Chhattisgarh
+D0100,19.78,20.18,High Risk,Dantewada,Chhattisgarh
+D0101,17.98,20.26,High Risk,Dhamtari,Chhattisgarh
+D0102,9.12,3.83,Medium Risk,Durg,Chhattisgarh
+D0103,17.44,18.67,High Risk,Gariaband,Chhattisgarh
+D0104,10.59,8.62,Medium Risk,Janjgir-Champa,Chhattisgarh
+D0105,25.05,27.24,High Risk,Jashpur,Chhattisgarh
+D0106,19.11,19.2,High Risk,Kabirdham,Chhattisgarh
+D0107,27.07,27.53,High Risk,Kanker,Chhattisgarh
+D0108,5.4,3.92,Medium Risk,Kondagaon,Chhattisgarh
+D0109,9.73,12.76,Medium Risk,Korba,Chhattisgarh
+D0110,11.11,8.22,Medium Risk,Koriya,Chhattisgarh
+D0111,15.87,16.2,High Risk,Mahasamund,Chhattisgarh
+D0112,8.06,7.2,Medium Risk,Mungeli,Chhattisgarh
+D0113,9.22,9.71,Medium Risk,Narayanpur,Chhattisgarh
+D0114,6.2,5.52,Medium Risk,Raigarh,Chhattisgarh
+D0115,14.11,13.98,Medium Risk,Raipur,Chhattisgarh
+D0116,28.59,30.69,High Risk,Rajnandgaon,Chhattisgarh
+D0117,5.43,4.22,Medium Risk,Sukma,Chhattisgarh
+D0118,19.42,21.39,High Risk,Surajpur,Chhattisgarh
+D0119,12.57,16.6,Medium Risk,Surguja,Chhattisgarh
+D0120,13.07,13.07,Medium Risk,Central Delhi,Delhi
+D0121,15.72,19.59,High Risk,East Delhi,Delhi
+D0122,18.38,18.55,High Risk,New Delhi,Delhi
+D0123,9.46,9.41,Medium Risk,North Delhi,Delhi
+D0124,12.83,12.13,Medium Risk,North East Delhi,Delhi
+D0125,9.84,8.9,Medium Risk,North West Delhi,Delhi
+D0126,11.21,11.36,Medium Risk,Shahdara,Delhi
+D0127,4.9,4.1,Low Risk,South Delhi,Delhi
+D0128,13.78,13.27,Medium Risk,South East Delhi,Delhi
+D0129,11.52,12.29,Medium Risk,South West Delhi,Delhi
+D0130,11.8,12.04,Medium Risk,West Delhi,Delhi
+D0131,14.3,15.11,Medium Risk,North Goa,Goa
+D0132,7.42,10.84,Medium Risk,South Goa,Goa
+D0133,6.0,19.53,Medium Risk,Ahmedabad,Gujarat
+D0134,13.09,12.43,Medium Risk,Amreli,Gujarat
+D0135,14.24,14.51,Medium Risk,Anand,Gujarat
+D0136,16.0,10.12,High Risk,Aravalli,Gujarat
+D0137,8.95,11.12,Medium Risk,Banaskantha,Gujarat
+D0138,11.58,11.0,Medium Risk,Bharuch,Gujarat
+D0139,13.93,15.85,Medium Risk,Bhavnagar,Gujarat
+D0140,19.44,20.95,High Risk,Botad,Gujarat
+D0141,12.03,10.65,Medium Risk,Chhota Udaipur,Gujarat
+D0142,11.86,10.63,Medium Risk,Dahod,Gujarat
+D0143,13.37,13.05,Medium Risk,Dang,Gujarat
+D0144,11.13,10.96,Medium Risk,Devbhoomi Dwarka,Gujarat
+D0145,7.99,5.27,Medium Risk,Gandhinagar,Gujarat
+D0146,7.5,2.6,Medium Risk,Gir Somnath,Gujarat
+D0147,7.85,5.9,Medium Risk,Jamnagar,Gujarat
+D0148,12.94,11.74,Medium Risk,Junagadh,Gujarat
+D0149,14.31,21.63,Medium Risk,Kheda,Gujarat
+D0150,18.32,18.54,High Risk,Kutch,Gujarat
+D0151,20.2,21.32,High Risk,Mahisagar,Gujarat
+D0152,18.59,18.81,High Risk,Mehsana,Gujarat
+D0153,10.41,9.37,Medium Risk,Morbi,Gujarat
+D0154,17.86,18.09,High Risk,Narmada,Gujarat
+D0155,7.79,7.08,Medium Risk,Navsari,Gujarat
+D0156,14.42,7.09,Medium Risk,Panchmahal,Gujarat
+D0157,11.92,11.38,Medium Risk,Patan,Gujarat
+D0158,14.15,15.05,Medium Risk,Porbandar,Gujarat
+D0159,19.53,6.89,High Risk,Rajkot,Gujarat
+D0160,26.17,26.85,High Risk,Sabarkantha,Gujarat
+D0161,8.97,8.27,Medium Risk,Surat,Gujarat
+D0162,16.14,17.2,High Risk,Surendranagar,Gujarat
+D0163,7.33,4.82,Medium Risk,Tapi,Gujarat
+D0164,16.15,17.12,High Risk,Vadodara,Gujarat
+D0165,10.49,17.03,Medium Risk,Valsad,Gujarat
+D0166,15.35,18.79,High Risk,Ambala,Haryana
+D0167,18.34,18.86,High Risk,Bhiwani,Haryana
+D0168,17.25,18.99,High Risk,Charkhi Dadri,Haryana
+D0169,21.8,23.42,High Risk,Faridabad,Haryana
+D0170,20.24,21.11,High Risk,Fatehabad,Haryana
+D0171,15.76,15.86,High Risk,Gurugram,Haryana
+D0172,25.12,26.41,High Risk,Hisar,Haryana
+D0173,7.82,7.34,Medium Risk,Jhajjar,Haryana
+D0174,18.49,18.67,High Risk,Jind,Haryana
+D0175,13.58,4.23,Medium Risk,Kaithal,Haryana
+D0176,6.48,4.37,Medium Risk,Karnal,Haryana
+D0177,19.17,19.89,High Risk,Kurukshetra,Haryana
+D0178,12.7,14.93,Medium Risk,Mahendragarh,Haryana
+D0179,5.9,5.55,Medium Risk,Nuh,Haryana
+D0180,22.99,23.33,High Risk,Palwal,Haryana
+D0181,28.16,28.92,High Risk,Panchkula,Haryana
+D0182,12.74,16.7,Medium Risk,Panipat,Haryana
+D0183,29.68,30.75,High Risk,Rewari,Haryana
+D0184,15.98,18.59,High Risk,Rohtak,Haryana
+D0185,11.03,7.93,Medium Risk,Sirsa,Haryana
+D0186,15.31,16.33,High Risk,Sonipat,Haryana
+D0187,3.86,3.85,Low Risk,Yamunanagar,Haryana
+D0188,6.41,5.74,Medium Risk,Bilaspur,Himachal Pradesh
+D0189,9.64,9.92,Medium Risk,Chamba,Himachal Pradesh
+D0190,10.31,7.62,Medium Risk,Hamirpur,Himachal Pradesh
+D0191,10.08,10.16,Medium Risk,Kangra,Himachal Pradesh
+D0192,14.45,15.25,Medium Risk,Kinnaur,Himachal Pradesh
+D0193,10.03,11.43,Medium Risk,Kullu,Himachal Pradesh
+D0194,5.0,3.01,Medium Risk,Lahaul and Spiti,Himachal Pradesh
+D0195,13.26,14.7,Medium Risk,Mandi,Himachal Pradesh
+D0196,8.87,7.65,Medium Risk,Shimla,Himachal Pradesh
+D0197,15.44,10.76,High Risk,Sirmaur,Himachal Pradesh
+D0198,5.57,5.2,Medium Risk,Solan,Himachal Pradesh
+D0199,4.14,3.43,Low Risk,Una,Himachal Pradesh
+D0200,16.54,17.15,High Risk,Bokaro,Jharkhand
+D0201,10.78,11.06,Medium Risk,Chatra,Jharkhand
+D0202,7.68,7.14,Medium Risk,Deoghar,Jharkhand
+D0203,27.07,27.55,High Risk,Dhanbad,Jharkhand
+D0204,22.69,23.79,High Risk,Dumka,Jharkhand
+D0205,23.6,16.87,High Risk,East Singhbhum,Jharkhand
+D0206,6.63,4.09,Medium Risk,Garhwa,Jharkhand
+D0207,12.07,12.64,Medium Risk,Giridih,Jharkhand
+D0208,16.95,17.95,High Risk,Godda,Jharkhand
+D0209,17.24,18.43,High Risk,Gumla,Jharkhand
+D0210,11.11,18.49,Medium Risk,Hazaribagh,Jharkhand
+D0211,14.3,10.31,Medium Risk,Jamtara,Jharkhand
+D0212,16.48,18.01,High Risk,Khunti,Jharkhand
+D0213,15.09,12.28,High Risk,Koderma,Jharkhand
+D0214,9.62,6.85,Medium Risk,Latehar,Jharkhand
+D0215,15.43,16.33,High Risk,Lohardaga,Jharkhand
+D0216,7.64,2.85,Medium Risk,Pakur,Jharkhand
+D0217,19.46,19.9,High Risk,Palamu,Jharkhand
+D0218,16.46,16.85,High Risk,Ramgarh,Jharkhand
+D0219,3.49,2.9,Low Risk,Ranchi,Jharkhand
+D0220,20.25,22.74,High Risk,Sahebganj,Jharkhand
+D0221,9.56,10.74,Medium Risk,Seraikela Kharsawan,Jharkhand
+D0222,13.74,12.43,Medium Risk,Simdega,Jharkhand
+D0223,15.67,16.76,High Risk,West Singhbhum,Jharkhand
+D0224,14.07,5.74,Medium Risk,Bagalkot,Karnataka
+D0225,5.09,5.18,Medium Risk,Ballari,Karnataka
+D0226,10.76,9.51,Medium Risk,Belagavi,Karnataka
+D0227,6.63,4.16,Medium Risk,Bengaluru Rural,Karnataka
+D0228,8.47,15.59,Medium Risk,Bengaluru Urban,Karnataka
+D0229,14.65,13.55,Medium Risk,Bidar,Karnataka
+D0230,5.19,4.05,Medium Risk,Chamarajanagar,Karnataka
+D0231,17.0,18.46,High Risk,Chikkaballapur,Karnataka
+D0232,10.22,10.43,Medium Risk,Chikkamagaluru,Karnataka
+D0233,11.91,11.21,Medium Risk,Chitradurga,Karnataka
+D0234,24.0,25.61,High Risk,Dakshina Kannada,Karnataka
+D0235,10.85,9.96,Medium Risk,Davanagere,Karnataka
+D0236,11.12,21.69,Medium Risk,Dharwad,Karnataka
+D0237,16.28,17.85,High Risk,Gadag,Karnataka
+D0238,22.23,23.11,High Risk,Hassan,Karnataka
+D0239,12.29,12.05,Medium Risk,Haveri,Karnataka
+D0240,15.22,17.88,High Risk,Kalaburagi,Karnataka
+D0241,11.99,11.71,Medium Risk,Kodagu,Karnataka
+D0242,9.67,8.22,Medium Risk,Kolar,Karnataka
+D0243,2.28,2.0,Low Risk,Koppal,Karnataka
+D0244,15.88,15.63,High Risk,Mandya,Karnataka
+D0245,27.07,30.56,High Risk,Mysuru,Karnataka
+D0246,10.96,12.69,Medium Risk,Raichur,Karnataka
+D0247,4.37,3.84,Low Risk,Ramanagara,Karnataka
+D0248,9.68,9.21,Medium Risk,Shivamogga,Karnataka
+D0249,5.1,3.71,Medium Risk,Tumakuru,Karnataka
+D0250,16.92,17.28,High Risk,Udupi,Karnataka
+D0251,11.83,12.3,Medium Risk,Uttara Kannada,Karnataka
+D0252,13.19,10.56,Medium Risk,Vijayapura,Karnataka
+D0253,7.15,7.31,Medium Risk,Yadgir,Karnataka
+D0254,10.26,10.03,Medium Risk,Alappuzha,Kerala
+D0255,26.9,28.45,High Risk,Ernakulam,Kerala
+D0256,8.83,9.37,Medium Risk,Idukki,Kerala
+D0257,11.54,5.49,Medium Risk,Kannur,Kerala
+D0258,7.79,8.34,Medium Risk,Kasaragod,Kerala
+D0259,6.98,5.91,Medium Risk,Kollam,Kerala
+D0260,12.79,12.55,Medium Risk,Kottayam,Kerala
+D0261,6.38,3.3,Medium Risk,Kozhikode,Kerala
+D0262,16.55,18.1,High Risk,Malappuram,Kerala
+D0263,9.91,9.03,Medium Risk,Palakkad,Kerala
+D0264,9.96,10.8,Medium Risk,Pathanamthitta,Kerala
+D0265,12.47,21.12,Medium Risk,Thiruvananthapuram,Kerala
+D0266,9.78,13.65,Medium Risk,Thrissur,Kerala
+D0267,7.67,4.24,Medium Risk,Wayanad,Kerala
+D0268,9.46,8.67,Medium Risk,Agar Malwa,Madhya Pradesh
+D0269,11.41,11.41,Medium Risk,Alirajpur,Madhya Pradesh
+D0270,5.41,4.78,Medium Risk,Anuppur,Madhya Pradesh
+D0271,11.69,12.18,Medium Risk,Ashoknagar,Madhya Pradesh
+D0272,8.78,9.08,Medium Risk,Balaghat,Madhya Pradesh
+D0273,5.69,4.4,Medium Risk,Barwani,Madhya Pradesh
+D0274,16.97,18.72,High Risk,Betul,Madhya Pradesh
+D0275,6.33,5.97,Medium Risk,Bhind,Madhya Pradesh
+D0276,8.63,6.62,Medium Risk,Bhopal,Madhya Pradesh
+D0277,19.58,21.29,High Risk,Burhanpur,Madhya Pradesh
+D0278,24.74,24.93,High Risk,Chhatarpur,Madhya Pradesh
+D0279,6.5,6.19,Medium Risk,Chhindwara,Madhya Pradesh
+D0280,13.83,13.86,Medium Risk,Damoh,Madhya Pradesh
+D0281,24.1,24.31,High Risk,Datia,Madhya Pradesh
+D0282,9.8,9.2,Medium Risk,Dewas,Madhya Pradesh
+D0283,13.75,13.7,Medium Risk,Dhar,Madhya Pradesh
+D0284,5.39,4.8,Medium Risk,Dindori,Madhya Pradesh
+D0285,8.08,6.44,Medium Risk,Guna,Madhya Pradesh
+D0286,16.31,16.08,High Risk,Gwalior,Madhya Pradesh
+D0287,4.43,3.22,Low Risk,Harda,Madhya Pradesh
+D0288,4.43,3.09,Low Risk,Hoshangabad,Madhya Pradesh
+D0289,12.34,11.8,Medium Risk,Indore,Madhya Pradesh
+D0290,14.91,15.53,Medium Risk,Jabalpur,Madhya Pradesh
+D0291,3.73,3.15,Low Risk,Jhabua,Madhya Pradesh
+D0292,15.18,5.42,High Risk,Katni,Madhya Pradesh
+D0293,8.86,3.61,Medium Risk,Khandwa,Madhya Pradesh
+D0294,9.22,9.08,Medium Risk,Khargone,Madhya Pradesh
+D0295,5.61,5.68,Medium Risk,Mandla,Madhya Pradesh
+D0296,9.61,9.16,Medium Risk,Mandsaur,Madhya Pradesh
+D0297,23.16,25.49,High Risk,Morena,Madhya Pradesh
+D0298,15.09,15.32,High Risk,Narsinghpur,Madhya Pradesh
+D0299,6.89,5.18,Medium Risk,Neemuch,Madhya Pradesh
+D0300,6.4,3.62,Medium Risk,Panna,Madhya Pradesh
+D0301,15.05,12.64,High Risk,Raisen,Madhya Pradesh
+D0302,20.68,22.01,High Risk,Rajgarh,Madhya Pradesh
+D0303,9.13,19.54,Medium Risk,Ratlam,Madhya Pradesh
+D0304,9.81,10.09,Medium Risk,Rewa,Madhya Pradesh
+D0305,13.8,14.41,Medium Risk,Sagar,Madhya Pradesh
+D0306,21.24,21.32,High Risk,Satna,Madhya Pradesh
+D0307,13.96,12.96,Medium Risk,Sehore,Madhya Pradesh
+D0308,9.09,9.28,Medium Risk,Seoni,Madhya Pradesh
+D0309,10.44,8.21,Medium Risk,Shahdol,Madhya Pradesh
+D0310,5.39,4.15,Medium Risk,Shajapur,Madhya Pradesh
+D0311,21.28,22.25,High Risk,Sheopur,Madhya Pradesh
+D0312,15.09,4.43,High Risk,Shivpuri,Madhya Pradesh
+D0313,9.95,9.34,Medium Risk,Sidhi,Madhya Pradesh
+D0314,10.11,8.94,Medium Risk,Singrauli,Madhya Pradesh
+D0315,14.17,16.28,Medium Risk,Tikamgarh,Madhya Pradesh
+D0316,17.52,18.96,High Risk,Ujjain,Madhya Pradesh
+D0317,17.51,18.66,High Risk,Umaria,Madhya Pradesh
+D0318,7.71,5.96,Medium Risk,Vidisha,Madhya Pradesh
+D0319,8.45,3.34,Medium Risk,Ahmednagar,Maharashtra
+D0320,11.64,13.1,Medium Risk,Akola,Maharashtra
+D0321,13.8,11.74,Medium Risk,Amravati,Maharashtra
+D0322,16.47,18.22,High Risk,Aurangabad,Maharashtra
+D0323,7.7,5.23,Medium Risk,Beed,Maharashtra
+D0324,14.6,14.49,Medium Risk,Bhandara,Maharashtra
+D0325,14.74,11.95,Medium Risk,Buldhana,Maharashtra
+D0326,8.66,7.33,Medium Risk,Chandrapur,Maharashtra
+D0327,19.29,26.88,High Risk,Dhule,Maharashtra
+D0328,9.89,7.99,Medium Risk,Gadchiroli,Maharashtra
+D0329,8.31,3.59,Medium Risk,Gondia,Maharashtra
+D0330,12.29,11.95,Medium Risk,Hingoli,Maharashtra
+D0331,9.1,10.08,Medium Risk,Jalgaon,Maharashtra
+D0332,9.55,15.73,Medium Risk,Jalna,Maharashtra
+D0333,8.06,2.17,Medium Risk,Kolhapur,Maharashtra
+D0334,12.75,14.54,Medium Risk,Latur,Maharashtra
+D0335,18.17,19.74,High Risk,Mumbai City,Maharashtra
+D0336,15.69,16.34,High Risk,Mumbai Suburban,Maharashtra
+D0337,22.78,11.62,High Risk,Nagpur,Maharashtra
+D0338,18.75,19.42,High Risk,Nanded,Maharashtra
+D0339,6.13,5.25,Medium Risk,Nandurbar,Maharashtra
+D0340,14.69,16.1,Medium Risk,Nashik,Maharashtra
+D0341,11.64,7.92,Medium Risk,Osmanabad,Maharashtra
+D0342,13.28,13.19,Medium Risk,Palghar,Maharashtra
+D0343,4.96,4.5,Low Risk,Parbhani,Maharashtra
+D0344,17.05,18.55,High Risk,Pune,Maharashtra
+D0345,11.23,11.1,Medium Risk,Raigad,Maharashtra
+D0346,16.43,17.43,High Risk,Ratnagiri,Maharashtra
+D0347,12.63,12.62,Medium Risk,Sangli,Maharashtra
+D0348,4.57,2.93,Low Risk,Satara,Maharashtra
+D0349,19.04,20.0,High Risk,Sindhudurg,Maharashtra
+D0350,5.17,3.12,Medium Risk,Solapur,Maharashtra
+D0351,15.52,15.98,High Risk,Thane,Maharashtra
+D0352,5.19,2.97,Medium Risk,Wardha,Maharashtra
+D0353,9.88,9.68,Medium Risk,Washim,Maharashtra
+D0354,13.3,13.92,Medium Risk,Yavatmal,Maharashtra
+D0355,14.48,18.49,Medium Risk,Bishnupur,Manipur
+D0356,13.83,14.66,Medium Risk,Chandel,Manipur
+D0357,11.05,24.94,Medium Risk,Churachandpur,Manipur
+D0358,8.0,8.84,Medium Risk,Imphal East,Manipur
+D0359,3.47,2.73,Low Risk,Imphal West,Manipur
+D0360,18.9,18.9,High Risk,Jiribam,Manipur
+D0361,6.98,6.07,Medium Risk,Kakching,Manipur
+D0362,11.87,11.63,Medium Risk,Kamjong,Manipur
+D0363,29.7,30.0,High Risk,Kangpokpi,Manipur
+D0364,9.65,2.73,Medium Risk,Noney,Manipur
+D0365,16.4,15.71,High Risk,Pherzawl,Manipur
+D0366,6.38,5.79,Medium Risk,Senapati,Manipur
+D0367,12.37,12.18,Medium Risk,Tamenglong,Manipur
+D0368,14.92,14.63,Medium Risk,Tengnoupal,Manipur
+D0369,17.83,18.3,High Risk,Thoubal,Manipur
+D0370,23.11,24.68,High Risk,Ukhrul,Manipur
+D0371,12.96,11.78,Medium Risk,East Garo Hills,Meghalaya
+D0372,17.96,19.05,High Risk,East Jaintia Hills,Meghalaya
+D0373,27.05,26.7,High Risk,East Khasi Hills,Meghalaya
+D0374,9.72,7.67,Medium Risk,North Garo Hills,Meghalaya
+D0375,15.79,17.26,High Risk,Ri Bhoi,Meghalaya
+D0376,13.0,12.72,Medium Risk,South Garo Hills,Meghalaya
+D0377,7.3,7.22,Medium Risk,South West Garo Hills,Meghalaya
+D0378,14.12,18.29,Medium Risk,South West Khasi Hills,Meghalaya
+D0379,14.36,14.07,Medium Risk,West Garo Hills,Meghalaya
+D0380,15.52,16.31,High Risk,West Jaintia Hills,Meghalaya
+D0381,11.87,11.85,Medium Risk,West Khasi Hills,Meghalaya
+D0382,13.29,16.95,Medium Risk,Aizawl,Mizoram
+D0383,11.22,7.72,Medium Risk,Champhai,Mizoram
+D0384,20.77,21.64,High Risk,Kolasib,Mizoram
+D0385,11.78,12.14,Medium Risk,Lawngtlai,Mizoram
+D0386,20.15,24.15,High Risk,Lunglei,Mizoram
+D0387,10.14,9.53,Medium Risk,Mamit,Mizoram
+D0388,14.73,14.77,Medium Risk,Saiha,Mizoram
+D0389,10.49,9.88,Medium Risk,Serchhip,Mizoram
+D0390,4.27,3.58,Low Risk,Dimapur,Nagaland
+D0391,10.74,12.11,Medium Risk,Kiphire,Nagaland
+D0392,3.91,3.13,Low Risk,Kohima,Nagaland
+D0393,6.57,6.4,Medium Risk,Longleng,Nagaland
+D0394,13.75,12.65,Medium Risk,Mokokchung,Nagaland
+D0395,11.87,9.51,Medium Risk,Mon,Nagaland
+D0396,7.66,7.35,Medium Risk,Peren,Nagaland
+D0397,14.63,23.45,Medium Risk,Phek,Nagaland
+D0398,23.18,24.94,High Risk,Tuensang,Nagaland
+D0399,19.64,21.14,High Risk,Wokha,Nagaland
+D0400,9.17,8.3,Medium Risk,Zunheboto,Nagaland
+D0401,3.05,2.02,Low Risk,Angul,Odisha
+D0402,11.4,10.86,Medium Risk,Balangir,Odisha
+D0403,12.7,11.65,Medium Risk,Balasore,Odisha
+D0404,5.06,4.68,Medium Risk,Bargarh,Odisha
+D0405,8.47,5.23,Medium Risk,Bhadrak,Odisha
+D0406,6.78,9.41,Medium Risk,Boudh,Odisha
+D0407,14.02,13.18,Medium Risk,Cuttack,Odisha
+D0408,23.12,23.27,High Risk,Deogarh,Odisha
+D0409,20.05,23.88,High Risk,Dhenkanal,Odisha
+D0410,5.35,17.98,Medium Risk,Gajapati,Odisha
+D0411,16.49,17.16,High Risk,Ganjam,Odisha
+D0412,20.23,20.32,High Risk,Jagatsinghpur,Odisha
+D0413,5.09,4.93,Medium Risk,Jajpur,Odisha
+D0414,18.7,23.6,High Risk,Jharsuguda,Odisha
+D0415,10.73,11.03,Medium Risk,Kalahandi,Odisha
+D0416,10.45,7.94,Medium Risk,Kandhamal,Odisha
+D0417,13.39,13.53,Medium Risk,Kendrapara,Odisha
+D0418,17.15,19.65,High Risk,Kendujhar,Odisha
+D0419,18.78,18.47,High Risk,Khordha,Odisha
+D0420,5.97,4.76,Medium Risk,Koraput,Odisha
+D0421,20.57,32.13,High Risk,Malkangiri,Odisha
+D0422,13.25,12.24,Medium Risk,Mayurbhanj,Odisha
+D0423,16.43,18.04,High Risk,Nabarangpur,Odisha
+D0424,15.99,16.01,High Risk,Nayagarh,Odisha
+D0425,13.19,12.55,Medium Risk,Nuapada,Odisha
+D0426,13.85,14.37,Medium Risk,Puri,Odisha
+D0427,18.16,19.75,High Risk,Rayagada,Odisha
+D0428,20.81,22.79,High Risk,Sambalpur,Odisha
+D0429,9.36,7.09,Medium Risk,Sonepur,Odisha
+D0430,11.57,11.71,Medium Risk,Sundargarh,Odisha
+D0431,16.78,16.06,High Risk,Amritsar,Punjab
+D0432,5.59,5.84,Medium Risk,Barnala,Punjab
+D0433,14.14,12.45,Medium Risk,Bathinda,Punjab
+D0434,16.27,16.52,High Risk,Faridkot,Punjab
+D0435,14.76,19.43,Medium Risk,Fatehgarh Sahib,Punjab
+D0436,15.75,16.84,High Risk,Fazilka,Punjab
+D0437,10.98,17.27,Medium Risk,Ferozepur,Punjab
+D0438,17.8,10.17,High Risk,Gurdaspur,Punjab
+D0439,6.06,6.3,Medium Risk,Hoshiarpur,Punjab
+D0440,17.12,21.32,High Risk,Jalandhar,Punjab
+D0441,13.67,14.32,Medium Risk,Kapurthala,Punjab
+D0442,30.06,30.35,High Risk,Ludhiana,Punjab
+D0443,14.66,14.89,Medium Risk,Mansa,Punjab
+D0444,11.59,10.17,Medium Risk,Moga,Punjab
+D0445,6.63,3.96,Medium Risk,Mohali,Punjab
+D0446,23.08,23.28,High Risk,Muktsar,Punjab
+D0447,13.38,11.89,Medium Risk,Nawanshahr,Punjab
+D0448,17.88,17.56,High Risk,Pathankot,Punjab
+D0449,13.13,12.46,Medium Risk,Patiala,Punjab
+D0450,16.38,17.6,High Risk,Rupnagar,Punjab
+D0451,11.66,11.4,Medium Risk,Sangrur,Punjab
+D0452,12.99,15.9,Medium Risk,Tarn Taran,Punjab
+D0453,9.39,9.78,Medium Risk,Ajmer,Rajasthan
+D0454,4.64,3.66,Low Risk,Alwar,Rajasthan
+D0455,8.82,7.44,Medium Risk,Banswara,Rajasthan
+D0456,4.59,3.35,Low Risk,Baran,Rajasthan
+D0457,14.95,15.4,Medium Risk,Barmer,Rajasthan
+D0458,4.52,3.4,Low Risk,Bharatpur,Rajasthan
+D0459,7.61,6.49,Medium Risk,Bhilwara,Rajasthan
+D0460,17.4,18.53,High Risk,Bikaner,Rajasthan
+D0461,7.27,7.07,Medium Risk,Bundi,Rajasthan
+D0462,12.37,10.99,Medium Risk,Chittorgarh,Rajasthan
+D0463,20.52,23.74,High Risk,Churu,Rajasthan
+D0464,13.64,13.6,Medium Risk,Dausa,Rajasthan
+D0465,10.22,8.64,Medium Risk,Dholpur,Rajasthan
+D0466,16.2,18.47,High Risk,Dungarpur,Rajasthan
+D0467,15.69,15.86,High Risk,Hanumangarh,Rajasthan
+D0468,13.99,15.77,Medium Risk,Jaipur,Rajasthan
+D0469,10.71,11.68,Medium Risk,Jaisalmer,Rajasthan
+D0470,19.93,21.1,High Risk,Jalore,Rajasthan
+D0471,8.07,6.27,Medium Risk,Jhalawar,Rajasthan
+D0472,15.9,18.05,High Risk,Jhunjhunu,Rajasthan
+D0473,19.51,19.66,High Risk,Jodhpur,Rajasthan
+D0474,14.25,14.35,Medium Risk,Karauli,Rajasthan
+D0475,16.29,17.84,High Risk,Kota,Rajasthan
+D0476,4.12,3.58,Low Risk,Nagaur,Rajasthan
+D0477,17.76,19.49,High Risk,Pali,Rajasthan
+D0478,10.8,9.76,Medium Risk,Pratapgarh,Rajasthan
+D0479,13.19,11.98,Medium Risk,Rajsamand,Rajasthan
+D0480,13.69,15.18,Medium Risk,Sawai Madhopur,Rajasthan
+D0481,8.72,7.87,Medium Risk,Sikar,Rajasthan
+D0482,12.12,11.7,Medium Risk,Sirohi,Rajasthan
+D0483,27.67,29.27,High Risk,Sri Ganganagar,Rajasthan
+D0484,8.46,9.01,Medium Risk,Tonk,Rajasthan
+D0485,5.78,4.2,Medium Risk,Udaipur,Rajasthan
+D0486,8.49,7.34,Medium Risk,East Sikkim,Sikkim
+D0487,16.93,17.29,High Risk,North Sikkim,Sikkim
+D0488,13.71,13.05,Medium Risk,South Sikkim,Sikkim
+D0489,17.16,16.87,High Risk,West Sikkim,Sikkim
+D0490,13.19,14.71,Medium Risk,Ariyalur,Tamil Nadu
+D0491,23.88,9.63,High Risk,Chengalpattu,Tamil Nadu
+D0492,13.09,13.54,Medium Risk,Chennai,Tamil Nadu
+D0493,4.49,4.02,Low Risk,Coimbatore,Tamil Nadu
+D0494,7.94,8.02,Medium Risk,Cuddalore,Tamil Nadu
+D0495,10.63,13.02,Medium Risk,Dharmapuri,Tamil Nadu
+D0496,12.96,12.83,Medium Risk,Dindigul,Tamil Nadu
+D0497,20.07,23.01,High Risk,Erode,Tamil Nadu
+D0498,8.12,6.26,Medium Risk,Kallakurichi,Tamil Nadu
+D0499,18.78,18.7,High Risk,Kancheepuram,Tamil Nadu
+D0500,14.41,14.44,Medium Risk,Karur,Tamil Nadu
+D0501,19.56,20.26,High Risk,Krishnagiri,Tamil Nadu
+D0502,6.01,4.64,Medium Risk,Madurai,Tamil Nadu
+D0503,17.08,17.12,High Risk,Nagapattinam,Tamil Nadu
+D0504,20.87,21.73,High Risk,Namakkal,Tamil Nadu
+D0505,12.59,12.94,Medium Risk,Nilgiris,Tamil Nadu
+D0506,15.63,15.36,High Risk,Perambalur,Tamil Nadu
+D0507,22.1,28.56,High Risk,Pudukkottai,Tamil Nadu
+D0508,5.58,4.72,Medium Risk,Ramanathapuram,Tamil Nadu
+D0509,5.57,5.03,Medium Risk,Ranipet,Tamil Nadu
+D0510,6.9,5.96,Medium Risk,Salem,Tamil Nadu
+D0511,16.69,16.57,High Risk,Sivaganga,Tamil Nadu
+D0512,11.15,10.0,Medium Risk,Tenkasi,Tamil Nadu
+D0513,15.39,5.23,High Risk,Thanjavur,Tamil Nadu
+D0514,17.27,17.12,High Risk,Theni,Tamil Nadu
+D0515,8.63,8.32,Medium Risk,Thoothukudi,Tamil Nadu
+D0516,11.21,3.01,Medium Risk,Tiruchirappalli,Tamil Nadu
+D0517,11.83,4.57,Medium Risk,Tirunelveli,Tamil Nadu
+D0518,10.34,10.02,Medium Risk,Tirupathur,Tamil Nadu
+D0519,22.55,16.4,High Risk,Tiruppur,Tamil Nadu
+D0520,11.94,11.36,Medium Risk,Tiruvallur,Tamil Nadu
+D0521,7.89,6.95,Medium Risk,Tiruvannamalai,Tamil Nadu
+D0522,24.46,25.96,High Risk,Tiruvarur,Tamil Nadu
+D0523,6.96,4.5,Medium Risk,Vellore,Tamil Nadu
+D0524,21.02,17.24,High Risk,Viluppuram,Tamil Nadu
+D0525,4.55,3.45,Low Risk,Virudhunagar,Tamil Nadu
+D0526,13.52,12.43,Medium Risk,Adilabad,Telangana
+D0527,13.75,9.79,Medium Risk,Bhadradri Kothagudem,Telangana
+D0528,14.46,16.73,Medium Risk,Hyderabad,Telangana
+D0529,6.93,7.35,Medium Risk,Jagtial,Telangana
+D0530,22.48,24.7,High Risk,Jangaon,Telangana
+D0531,17.9,17.76,High Risk,Jayashankar Bhupalpally,Telangana
+D0532,6.06,5.38,Medium Risk,Jogulamba Gadwal,Telangana
+D0533,12.94,11.92,Medium Risk,Kamareddy,Telangana
+D0534,4.78,4.08,Low Risk,Karimnagar,Telangana
+D0535,24.69,25.42,High Risk,Khammam,Telangana
+D0536,24.48,9.59,High Risk,Kumuram Bheem Asifabad,Telangana
+D0537,15.47,16.88,High Risk,Mahabubabad,Telangana
+D0538,15.91,16.51,High Risk,Mahabubnagar,Telangana
+D0539,18.27,18.56,High Risk,Mancherial,Telangana
+D0540,21.75,24.97,High Risk,Medak,Telangana
+D0541,15.78,17.59,High Risk,Medchal-Malkajgiri,Telangana
+D0542,16.81,18.49,High Risk,Mulugu,Telangana
+D0543,18.08,19.77,High Risk,Nagarkurnool,Telangana
+D0544,5.39,5.54,Medium Risk,Nalgonda,Telangana
+D0545,22.23,33.26,High Risk,Narayanpet,Telangana
+D0546,11.98,16.07,Medium Risk,Nirmal,Telangana
+D0547,18.11,18.18,High Risk,Nizamabad,Telangana
+D0548,25.97,27.63,High Risk,Peddapalli,Telangana
+D0549,7.81,7.46,Medium Risk,Rajanna Sircilla,Telangana
+D0550,12.74,12.74,Medium Risk,Rangareddy,Telangana
+D0551,5.0,3.43,Medium Risk,Sangareddy,Telangana
+D0552,14.71,14.88,Medium Risk,Siddipet,Telangana
+D0553,14.12,14.06,Medium Risk,Suryapet,Telangana
+D0554,20.06,20.93,High Risk,Vikarabad,Telangana
+D0555,13.27,17.84,Medium Risk,Wanaparthy,Telangana
+D0556,9.72,8.5,Medium Risk,Warangal Rural,Telangana
+D0557,8.22,8.46,Medium Risk,Warangal Urban,Telangana
+D0558,4.36,3.34,Low Risk,Yadadri Bhuvanagiri,Telangana
+D0559,13.36,13.29,Medium Risk,Dhalai,Tripura
+D0560,21.84,11.09,High Risk,Gomati,Tripura
+D0561,19.05,20.21,High Risk,Khowai,Tripura
+D0562,16.79,19.25,High Risk,North Tripura,Tripura
+D0563,6.72,5.9,Medium Risk,Sepahijala,Tripura
+D0564,16.94,17.73,High Risk,South Tripura,Tripura
+D0565,10.17,8.1,Medium Risk,Unakoti,Tripura
+D0566,11.47,9.9,Medium Risk,West Tripura,Tripura
+D0567,10.54,10.15,Medium Risk,Agra,Uttar Pradesh
+D0568,16.22,30.76,High Risk,Aligarh,Uttar Pradesh
+D0569,18.56,20.41,High Risk,Ambedkar Nagar,Uttar Pradesh
+D0570,5.82,6.86,Medium Risk,Amethi,Uttar Pradesh
+D0571,5.42,4.44,Medium Risk,Amroha,Uttar Pradesh
+D0572,16.47,15.22,High Risk,Auraiya,Uttar Pradesh
+D0573,9.6,8.74,Medium Risk,Ayodhya,Uttar Pradesh
+D0574,15.21,15.95,High Risk,Azamgarh,Uttar Pradesh
+D0575,12.32,11.94,Medium Risk,Baghpat,Uttar Pradesh
+D0576,20.32,22.02,High Risk,Bahraich,Uttar Pradesh
+D0577,6.03,4.37,Medium Risk,Ballia,Uttar Pradesh
+D0578,11.37,12.41,Medium Risk,Balrampur,Uttar Pradesh
+D0579,8.94,9.12,Medium Risk,Banda,Uttar Pradesh
+D0580,6.6,7.14,Medium Risk,Barabanki,Uttar Pradesh
+D0581,12.72,9.17,Medium Risk,Bareilly,Uttar Pradesh
+D0582,6.66,4.66,Medium Risk,Basti,Uttar Pradesh
+D0583,6.41,5.87,Medium Risk,Bhadohi,Uttar Pradesh
+D0584,18.81,25.75,High Risk,Bijnor,Uttar Pradesh
+D0585,5.91,11.52,Medium Risk,Budaun,Uttar Pradesh
+D0586,6.05,5.48,Medium Risk,Bulandshahr,Uttar Pradesh
+D0587,6.38,4.05,Medium Risk,Chandauli,Uttar Pradesh
+D0588,14.63,15.3,Medium Risk,Chitrakoot,Uttar Pradesh
+D0589,13.66,4.77,Medium Risk,Deoria,Uttar Pradesh
+D0590,7.84,11.47,Medium Risk,Etah,Uttar Pradesh
+D0591,23.59,28.24,High Risk,Etawah,Uttar Pradesh
+D0592,14.06,16.05,Medium Risk,Farrukhabad,Uttar Pradesh
+D0593,16.19,17.21,High Risk,Fatehpur,Uttar Pradesh
+D0594,20.66,21.89,High Risk,Firozabad,Uttar Pradesh
+D0595,8.49,7.49,Medium Risk,Gautam Buddha Nagar,Uttar Pradesh
+D0596,18.26,18.71,High Risk,Ghaziabad,Uttar Pradesh
+D0597,12.02,7.33,Medium Risk,Ghazipur,Uttar Pradesh
+D0598,3.2,2.85,Low Risk,Gonda,Uttar Pradesh
+D0599,12.48,7.34,Medium Risk,Gorakhpur,Uttar Pradesh
+D0600,5.75,4.79,Medium Risk,Hamirpur,Uttar Pradesh
+D0601,13.4,12.46,Medium Risk,Hapur,Uttar Pradesh
+D0602,18.32,18.5,High Risk,Hardoi,Uttar Pradesh
+D0603,14.24,13.93,Medium Risk,Hathras,Uttar Pradesh
+D0604,10.1,10.21,Medium Risk,Jalaun,Uttar Pradesh
+D0605,19.09,19.3,High Risk,Jaunpur,Uttar Pradesh
+D0606,8.34,7.6,Medium Risk,Jhansi,Uttar Pradesh
+D0607,12.88,3.73,Medium Risk,Kannauj,Uttar Pradesh
+D0608,13.43,13.03,Medium Risk,Kanpur Dehat,Uttar Pradesh
+D0609,17.91,19.97,High Risk,Kanpur Nagar,Uttar Pradesh
+D0610,10.2,5.63,Medium Risk,Kasganj,Uttar Pradesh
+D0611,11.17,10.7,Medium Risk,Kaushambi,Uttar Pradesh
+D0612,21.24,18.92,High Risk,Kheri,Uttar Pradesh
+D0613,9.48,8.9,Medium Risk,Kushinagar,Uttar Pradesh
+D0614,22.96,23.35,High Risk,Lalitpur,Uttar Pradesh
+D0615,17.36,19.25,High Risk,Lucknow,Uttar Pradesh
+D0616,15.19,18.42,High Risk,Maharajganj,Uttar Pradesh
+D0617,12.66,13.15,Medium Risk,Mahoba,Uttar Pradesh
+D0618,16.19,18.11,High Risk,Mainpuri,Uttar Pradesh
+D0619,24.47,25.1,High Risk,Mathura,Uttar Pradesh
+D0620,19.45,6.91,High Risk,Mau,Uttar Pradesh
+D0621,9.01,8.6,Medium Risk,Meerut,Uttar Pradesh
+D0622,8.83,6.9,Medium Risk,Mirzapur,Uttar Pradesh
+D0623,15.08,17.82,High Risk,Moradabad,Uttar Pradesh
+D0624,9.82,10.07,Medium Risk,Muzaffarnagar,Uttar Pradesh
+D0625,11.1,11.53,Medium Risk,Pilibhit,Uttar Pradesh
+D0626,9.51,7.05,Medium Risk,Pratapgarh,Uttar Pradesh
+D0627,8.42,6.46,Medium Risk,Prayagraj,Uttar Pradesh
+D0628,7.51,5.97,Medium Risk,Rae Bareli,Uttar Pradesh
+D0629,15.58,27.04,High Risk,Rampur,Uttar Pradesh
+D0630,15.71,16.38,High Risk,Saharanpur,Uttar Pradesh
+D0631,4.44,3.25,Low Risk,Sambhal,Uttar Pradesh
+D0632,7.49,9.77,Medium Risk,Sant Kabir Nagar,Uttar Pradesh
+D0633,4.2,2.67,Low Risk,Shahjahanpur,Uttar Pradesh
+D0634,21.69,22.52,High Risk,Shamli,Uttar Pradesh
+D0635,5.68,4.37,Medium Risk,Shravasti,Uttar Pradesh
+D0636,10.27,8.88,Medium Risk,Siddharthnagar,Uttar Pradesh
+D0637,11.87,9.25,Medium Risk,Sitapur,Uttar Pradesh
+D0638,11.18,10.91,Medium Risk,Sonbhadra,Uttar Pradesh
+D0639,15.41,15.91,High Risk,Sultanpur,Uttar Pradesh
+D0640,14.02,13.81,Medium Risk,Unnao,Uttar Pradesh
+D0641,16.73,17.43,High Risk,Varanasi,Uttar Pradesh
+D0642,24.42,24.74,High Risk,Almora,Uttarakhand
+D0643,4.42,2.93,Low Risk,Bageshwar,Uttarakhand
+D0644,11.08,12.28,Medium Risk,Chamoli,Uttarakhand
+D0645,12.63,7.0,Medium Risk,Champawat,Uttarakhand
+D0646,4.62,3.57,Low Risk,Dehradun,Uttarakhand
+D0647,15.89,17.27,High Risk,Haridwar,Uttarakhand
+D0648,17.37,17.72,High Risk,Nainital,Uttarakhand
+D0649,16.09,17.24,High Risk,Pauri Garhwal,Uttarakhand
+D0650,31.55,32.97,High Risk,Pithoragarh,Uttarakhand
+D0651,15.27,15.19,High Risk,Rudraprayag,Uttarakhand
+D0652,15.25,5.75,High Risk,Tehri Garhwal,Uttarakhand
+D0653,19.33,19.44,High Risk,Udham Singh Nagar,Uttarakhand
+D0654,19.6,22.19,High Risk,Uttarkashi,Uttarakhand
+D0655,21.69,21.44,High Risk,Alipurduar,West Bengal
+D0656,13.72,16.37,Medium Risk,Bankura,West Bengal
+D0657,17.13,17.54,High Risk,Birbhum,West Bengal
+D0658,9.85,7.69,Medium Risk,Cooch Behar,West Bengal
+D0659,12.42,12.04,Medium Risk,Dakshin Dinajpur,West Bengal
+D0660,9.27,7.56,Medium Risk,Darjeeling,West Bengal
+D0661,9.61,8.01,Medium Risk,Hooghly,West Bengal
+D0662,6.71,6.13,Medium Risk,Howrah,West Bengal
+D0663,13.91,12.96,Medium Risk,Jalpaiguri,West Bengal
+D0664,5.13,3.18,Medium Risk,Jhargram,West Bengal
+D0665,21.07,23.15,High Risk,Kalimpong,West Bengal
+D0666,22.62,23.76,High Risk,Kolkata,West Bengal
+D0667,15.21,15.14,High Risk,Malda,West Bengal
+D0668,9.31,7.91,Medium Risk,Murshidabad,West Bengal
+D0669,5.51,4.85,Medium Risk,Nadia,West Bengal
+D0670,17.58,18.03,High Risk,North 24 Parganas,West Bengal
+D0671,14.0,19.88,Medium Risk,Paschim Bardhaman,West Bengal
+D0672,16.32,16.68,High Risk,Paschim Medinipur,West Bengal
+D0673,7.74,6.54,Medium Risk,Purba Bardhaman,West Bengal
+D0674,18.05,18.17,High Risk,Purba Medinipur,West Bengal
+D0675,15.13,15.42,High Risk,Purulia,West Bengal
+D0676,25.08,26.94,High Risk,South 24 Parganas,West Bengal
+D0677,33.25,34.18,High Risk,Uttar Dinajpur,West Bengal
+D0678,13.7,3.28,Medium Risk,Nicobar,Andaman and Nicobar Islands
+D0679,14.61,14.74,Medium Risk,North and Middle Andaman,Andaman and Nicobar Islands
+D0680,7.55,6.22,Medium Risk,South Andaman,Andaman and Nicobar Islands
+D0681,15.43,18.06,High Risk,Chandigarh,Chandigarh
+D0682,27.08,27.93,High Risk,Dadra and Nagar Haveli,Dadra and Nagar Haveli and Daman and Diu
+D0683,8.96,8.47,Medium Risk,Daman,Dadra and Nagar Haveli and Daman and Diu
+D0684,7.36,7.49,Medium Risk,Diu,Dadra and Nagar Haveli and Daman and Diu
+D0685,25.49,27.44,High Risk,Anantnag,Jammu and Kashmir
+D0686,18.78,19.27,High Risk,Bandipora,Jammu and Kashmir
+D0687,20.03,21.91,High Risk,Baramulla,Jammu and Kashmir
+D0688,22.68,24.2,High Risk,Budgam,Jammu and Kashmir
+D0689,5.85,2.87,Medium Risk,Doda,Jammu and Kashmir
+D0690,4.35,2.61,Low Risk,Ganderbal,Jammu and Kashmir
+D0691,10.72,11.52,Medium Risk,Jammu,Jammu and Kashmir
+D0692,7.8,5.73,Medium Risk,Kathua,Jammu and Kashmir
+D0693,4.62,2.73,Low Risk,Kishtwar,Jammu and Kashmir
+D0694,11.15,10.41,Medium Risk,Kulgam,Jammu and Kashmir
+D0695,12.52,11.86,Medium Risk,Kupwara,Jammu and Kashmir
+D0696,18.69,18.2,High Risk,Poonch,Jammu and Kashmir
+D0697,10.7,10.78,Medium Risk,Pulwama,Jammu and Kashmir
+D0698,12.41,17.78,Medium Risk,Rajouri,Jammu and Kashmir
+D0699,17.69,20.63,High Risk,Ramban,Jammu and Kashmir
+D0700,7.75,6.35,Medium Risk,Reasi,Jammu and Kashmir
+D0701,30.26,34.22,High Risk,Samba,Jammu and Kashmir
+D0702,16.9,15.85,High Risk,Shopian,Jammu and Kashmir
+D0703,7.16,6.25,Medium Risk,Srinagar,Jammu and Kashmir
+D0704,10.29,11.54,Medium Risk,Udhampur,Jammu and Kashmir
+D0705,14.67,15.51,Medium Risk,Kargil,Ladakh
+D0706,15.06,14.01,High Risk,Leh,Ladakh
+D0707,19.47,16.23,High Risk,Lakshadweep,Lakshadweep
+D0708,22.04,32.63,High Risk,Karaikal,Puducherry
+D0709,20.86,20.38,High Risk,Mahe,Puducherry
+D0710,14.17,14.4,Medium Risk,Puducherry,Puducherry
+D0711,8.57,8.79,Medium Risk,Yanam,Puducherry
