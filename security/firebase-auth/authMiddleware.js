@@ -1,13 +1,16 @@
 /**
  * Firebase Authentication Middleware
- * This is a placeholder file for teammate implementation
+ * Validates Firebase ID tokens and extracts user information
  * 
- * TODO: Implement Express middleware for Firebase token validation
- * - Validate Firebase ID tokens
- * - Extract user information from tokens
- * - Handle authentication errors
+ * Usage: app.use(authMiddleware) for protected routes
  */
 
+const admin = require('firebase-admin');
+
+/**
+ * Main authentication middleware
+ * Validates Firebase ID token from Authorization header
+ */
 async function authMiddleware(req, res, next) {
     try {
         const authHeader = req.headers.authorization;
@@ -21,14 +24,9 @@ async function authMiddleware(req, res, next) {
         
         const token = authHeader.split('Bearer ')[1];
         
-        // TODO: Verify Firebase ID token
-        // const decodedToken = await admin.auth().verifyIdToken(token);
-        // req.user = decodedToken;
-        // next();
-        
-        // Placeholder: Allow all requests for development
-        console.warn('WARNING: Firebase auth middleware not implemented - allowing request');
-        req.user = { uid: 'dev-user', email: 'dev@alis.gov.in' };
+        // Verify Firebase ID token
+        const decodedToken = await admin.auth().verifyIdToken(token);
+        req.user = decodedToken;
         next();
         
     } catch (error) {
@@ -40,17 +38,48 @@ async function authMiddleware(req, res, next) {
     }
 }
 
+/**
+ * Role-based access control middleware
+ * Ensures user has one of the required roles
+ */
 function requireRole(roles) {
     return async (req, res, next) => {
-        // TODO: Implement role-based access control
-        // const userRole = req.user?.role;
-        // if (!roles.includes(userRole)) {
-        //     return res.status(403).json({ error: 'Insufficient permissions' });
-        // }
-        next();
+        try {
+            if (!req.user) {
+                return res.status(401).json({ 
+                    error: 'Unauthorized',
+                    message: 'User not authenticated'
+                });
+            }
+
+            // Get custom claims (roles) from Firebase
+            const userRecord = await admin.auth().getUser(req.user.uid);
+            const userRole = userRecord.customClaims?.role || 'user';
+            
+            if (!roles.includes(userRole)) {
+                return res.status(403).json({ 
+                    error: 'Forbidden',
+                    message: 'Insufficient permissions'
+                });
+            }
+            
+            req.userRole = userRole;
+            next();
+        } catch (error) {
+            console.error('Role check error:', error);
+            return res.status(500).json({ 
+                error: 'Internal server error',
+                message: 'Failed to verify user role'
+            });
+        }
     };
 }
 
+/**
+ * Optional authentication middleware
+ * Validates token if present, but doesn't require it
+ * Useful for routes that have public content but different behavior for logged-in users
+ */
 function optionalAuth(req, res, next) {
     const authHeader = req.headers.authorization;
     
