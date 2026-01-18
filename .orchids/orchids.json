@@ -3,6 +3,7 @@
   "createdAt": 1768721262050,
   "version": "1.0",
   "startupCommands": [
-    "pip install streamlit pandas; python run_streamlit.py"
+    "cd backend/api && npm install && node server.js &",
+    "cd frontend && npm install && npm run dev"
   ]
 }

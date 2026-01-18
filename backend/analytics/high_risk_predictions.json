@@ -1,0 +1,2058 @@
+[
+  {
+    "district_id": "D0003",
+    "predicted_auth_failure_prob": 17.99,
+    "actual_auth_failure_prob": 6.95,
+    "risk_category": "High Risk",
+    "district_name": "East Godavari",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "district_id": "D0009",
+    "predicted_auth_failure_prob": 15.5,
+    "actual_auth_failure_prob": 15.81,
+    "risk_category": "High Risk",
+    "district_name": "Srikakulam",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "district_id": "D0012",
+    "predicted_auth_failure_prob": 19.48,
+    "actual_auth_failure_prob": 20.23,
+    "risk_category": "High Risk",
+    "district_name": "West Godavari",
+    "state": "Andhra Pradesh"
+  },
+  {
+    "district_id": "D0014",
+    "predicted_auth_failure_prob": 29.07,
+    "actual_auth_failure_prob": 29.38,
+    "risk_category": "High Risk",
+    "district_name": "Anjaw",
+    "state": "Arunachal Pradesh"
+  },
+  {
+    "district_id": "D0016",
+    "predicted_auth_failure_prob": 16.77,
+    "actual_auth_failure_prob": 16.38,
+    "risk_category": "High Risk",
+    "district_name": "East Kameng",
+    "state": "Arunachal Pradesh"
+  },
+  {
+    "district_id": "D0017",
+    "predicted_auth_failure_prob": 20.54,
+    "actual_auth_failure_prob": 22.37,
+    "risk_category": "High Risk",
+    "district_name": "East Siang",
+    "state": "Arunachal Pradesh"
+  },
+  {
+    "district_id": "D0022",
+    "predicted_auth_failure_prob": 19.21,
+    "actual_auth_failure_prob": 18.98,
+    "risk_category": "High Risk",
+    "district_name": "Papum Pare",
+    "state": "Arunachal Pradesh"
+  },
+  {
+    "district_id": "D0024",
+    "predicted_auth_failure_prob": 16.57,
+    "actual_auth_failure_prob": 16.89,
+    "risk_category": "High Risk",
+    "district_name": "Tirap",
+    "state": "Arunachal Pradesh"
+  },
+  {
+    "district_id": "D0025",
+    "predicted_auth_failure_prob": 16.82,
+    "actual_auth_failure_prob": 17.57,
+    "risk_category": "High Risk",
+    "district_name": "Upper Siang",
+    "state": "Arunachal Pradesh"
+  },
+  {
+    "district_id": "D0027",
+    "predicted_auth_failure_prob": 17.87,
+    "actual_auth_failure_prob": 18.6,
+    "risk_category": "High Risk",
+    "district_name": "West Kameng",
+    "state": "Arunachal Pradesh"
+  },
+  {
+    "district_id": "D0030",
+    "predicted_auth_failure_prob": 23.21,
+    "actual_auth_failure_prob": 26.59,
+    "risk_category": "High Risk",
+    "district_name": "Barpeta",
+    "state": "Assam"
+  },
+  {
+    "district_id": "D0031",
+    "predicted_auth_failure_prob": 27.5,
+    "actual_auth_failure_prob": 19.33,
+    "risk_category": "High Risk",
+    "district_name": "Bongaigaon",
+    "state": "Assam"
+  },
+  {
+    "district_id": "D0033",
+    "predicted_auth_failure_prob": 28.61,
+    "actual_auth_failure_prob": 30.45,
+    "risk_category": "High Risk",
+    "district_name": "Chirang",
+    "state": "Assam"
+  },
+  {
+    "district_id": "D0035",
+    "predicted_auth_failure_prob": 29.17,
+    "actual_auth_failure_prob": 31.25,
+    "risk_category": "High Risk",
+    "district_name": "Dhemaji",
+    "state": "Assam"
+  },
+  {
+    "district_id": "D0039",
+    "predicted_auth_failure_prob": 16.49,
+    "actual_auth_failure_prob": 17.38,
+    "risk_category": "High Risk",
+    "district_name": "Golaghat",
+    "state": "Assam"
+  },
+  {
+    "district_id": "D0042",
+    "predicted_auth_failure_prob": 17.24,
+    "actual_auth_failure_prob": 19.47,
+    "risk_category": "High Risk",
+    "district_name": "Kamrup",
+    "state": "Assam"
+  },
+  {
+    "district_id": "D0043",
+    "predicted_auth_failure_prob": 19.55,
+    "actual_auth_failure_prob": 21.28,
+    "risk_category": "High Risk",
+    "district_name": "Kamrup Metropolitan",
+    "state": "Assam"
+  },
+  {
+    "district_id": "D0044",
+    "predicted_auth_failure_prob": 19.24,
+    "actual_auth_failure_prob": 20.21,
+    "risk_category": "High Risk",
+    "district_name": "Karbi Anglong",
+    "state": "Assam"
+  },
+  {
+    "district_id": "D0046",
+    "predicted_auth_failure_prob": 16.33,
+    "actual_auth_failure_prob": 17.3,
+    "risk_category": "High Risk",
+    "district_name": "Kokrajhar",
+    "state": "Assam"
+  },
+  {
+    "district_id": "D0056",
+    "predicted_auth_failure_prob": 17.32,
+    "actual_auth_failure_prob": 9.7,
+    "risk_category": "High Risk",
+    "district_name": "Arwal",
+    "state": "Bihar"
+  },
+  {
+    "district_id": "D0057",
+    "predicted_auth_failure_prob": 19.41,
+    "actual_auth_failure_prob": 8.93,
+    "risk_category": "High Risk",
+    "district_name": "Aurangabad",
+    "state": "Bihar"
+  },
+  {
+    "district_id": "D0058",
+    "predicted_auth_failure_prob": 16.82,
+    "actual_auth_failure_prob": 18.68,
+    "risk_category": "High Risk",
+    "district_name": "Banka",
+    "state": "Bihar"
+  },
+  {
+    "district_id": "D0067",
+    "predicted_auth_failure_prob": 15.48,
+    "actual_auth_failure_prob": 15.27,
+    "risk_category": "High Risk",
+    "district_name": "Jamui",
+    "state": "Bihar"
+  },
+  {
+    "district_id": "D0071",
+    "predicted_auth_failure_prob": 18.03,
+    "actual_auth_failure_prob": 16.6,
+    "risk_category": "High Risk",
+    "district_name": "Khagaria",
+    "state": "Bihar"
+  },
+  {
+    "district_id": "D0072",
+    "predicted_auth_failure_prob": 23.53,
+    "actual_auth_failure_prob": 25.79,
+    "risk_category": "High Risk",
+    "district_name": "Kishanganj",
+    "state": "Bihar"
+  },
+  {
+    "district_id": "D0073",
+    "predicted_auth_failure_prob": 16.62,
+    "actual_auth_failure_prob": 5.48,
+    "risk_category": "High Risk",
+    "district_name": "Lakhisarai",
+    "state": "Bihar"
+  },
+  {
+    "district_id": "D0085",
+    "predicted_auth_failure_prob": 17.6,
+    "actual_auth_failure_prob": 6.46,
+    "risk_category": "High Risk",
+    "district_name": "Saran",
+    "state": "Bihar"
+  },
+  {
+    "district_id": "D0086",
+    "predicted_auth_failure_prob": 17.63,
+    "actual_auth_failure_prob": 18.33,
+    "risk_category": "High Risk",
+    "district_name": "Sheikhpura",
+    "state": "Bihar"
+  },
+  {
+    "district_id": "D0087",
+    "predicted_auth_failure_prob": 16.23,
+    "actual_auth_failure_prob": 11.47,
+    "risk_category": "High Risk",
+    "district_name": "Sheohar",
+    "state": "Bihar"
+  },
+  {
+    "district_id": "D0088",
+    "predicted_auth_failure_prob": 17.07,
+    "actual_auth_failure_prob": 17.76,
+    "risk_category": "High Risk",
+    "district_name": "Sitamarhi",
+    "state": "Bihar"
+  },
+  {
+    "district_id": "D0095",
+    "predicted_auth_failure_prob": 17.46,
+    "actual_auth_failure_prob": 18.17,
+    "risk_category": "High Risk",
+    "district_name": "Balrampur",
+    "state": "Chhattisgarh"
+  },
+  {
+    "district_id": "D0096",
+    "predicted_auth_failure_prob": 15.01,
+    "actual_auth_failure_prob": 15.35,
+    "risk_category": "High Risk",
+    "district_name": "Bastar",
+    "state": "Chhattisgarh"
+  },
+  {
+    "district_id": "D0098",
+    "predicted_auth_failure_prob": 23.8,
+    "actual_auth_failure_prob": 27.87,
+    "risk_category": "High Risk",
+    "district_name": "Bijapur",
+    "state": "Chhattisgarh"
+  },
+  {
+    "district_id": "D0099",
+    "predicted_auth_failure_prob": 26.92,
+    "actual_auth_failure_prob": 27.86,
+    "risk_category": "High Risk",
+    "district_name": "Bilaspur",
+    "state": "Chhattisgarh"
+  },
+  {
+    "district_id": "D0100",
+    "predicted_auth_failure_prob": 19.78,
+    "actual_auth_failure_prob": 20.18,
+    "risk_category": "High Risk",
+    "district_name": "Dantewada",
+    "state": "Chhattisgarh"
+  },
+  {
+    "district_id": "D0101",
+    "predicted_auth_failure_prob": 17.98,
+    "actual_auth_failure_prob": 20.26,
+    "risk_category": "High Risk",
+    "district_name": "Dhamtari",
+    "state": "Chhattisgarh"
+  },
+  {
+    "district_id": "D0103",
+    "predicted_auth_failure_prob": 17.44,
+    "actual_auth_failure_prob": 18.67,
+    "risk_category": "High Risk",
+    "district_name": "Gariaband",
+    "state": "Chhattisgarh"
+  },
+  {
+    "district_id": "D0105",
+    "predicted_auth_failure_prob": 25.05,
+    "actual_auth_failure_prob": 27.24,
+    "risk_category": "High Risk",
+    "district_name": "Jashpur",
+    "state": "Chhattisgarh"
+  },
+  {
+    "district_id": "D0106",
+    "predicted_auth_failure_prob": 19.11,
+    "actual_auth_failure_prob": 19.2,
+    "risk_category": "High Risk",
+    "district_name": "Kabirdham",
+    "state": "Chhattisgarh"
+  },
+  {
+    "district_id": "D0107",
+    "predicted_auth_failure_prob": 27.07,
+    "actual_auth_failure_prob": 27.53,
+    "risk_category": "High Risk",
+    "district_name": "Kanker",
+    "state": "Chhattisgarh"
+  },
+  {
+    "district_id": "D0111",
+    "predicted_auth_failure_prob": 15.87,
+    "actual_auth_failure_prob": 16.2,
+    "risk_category": "High Risk",
+    "district_name": "Mahasamund",
+    "state": "Chhattisgarh"
+  },
+  {
+    "district_id": "D0116",
+    "predicted_auth_failure_prob": 28.59,
+    "actual_auth_failure_prob": 30.69,
+    "risk_category": "High Risk",
+    "district_name": "Rajnandgaon",
+    "state": "Chhattisgarh"
+  },
+  {
+    "district_id": "D0118",
+    "predicted_auth_failure_prob": 19.42,
+    "actual_auth_failure_prob": 21.39,
+    "risk_category": "High Risk",
+    "district_name": "Surajpur",
+    "state": "Chhattisgarh"
+  },
+  {
+    "district_id": "D0121",
+    "predicted_auth_failure_prob": 15.72,
+    "actual_auth_failure_prob": 19.59,
+    "risk_category": "High Risk",
+    "district_name": "East Delhi",
+    "state": "Delhi"
+  },
+  {
+    "district_id": "D0122",
+    "predicted_auth_failure_prob": 18.38,
+    "actual_auth_failure_prob": 18.55,
+    "risk_category": "High Risk",
+    "district_name": "New Delhi",
+    "state": "Delhi"
+  },
+  {
+    "district_id": "D0136",
+    "predicted_auth_failure_prob": 16.0,
+    "actual_auth_failure_prob": 10.12,
+    "risk_category": "High Risk",
+    "district_name": "Aravalli",
+    "state": "Gujarat"
+  },
+  {
+    "district_id": "D0140",
+    "predicted_auth_failure_prob": 19.44,
+    "actual_auth_failure_prob": 20.95,
+    "risk_category": "High Risk",
+    "district_name": "Botad",
+    "state": "Gujarat"
+  },
+  {
+    "district_id": "D0150",
+    "predicted_auth_failure_prob": 18.32,
+    "actual_auth_failure_prob": 18.54,
+    "risk_category": "High Risk",
+    "district_name": "Kutch",
+    "state": "Gujarat"
+  },
+  {
+    "district_id": "D0151",
+    "predicted_auth_failure_prob": 20.2,
+    "actual_auth_failure_prob": 21.32,
+    "risk_category": "High Risk",
+    "district_name": "Mahisagar",
+    "state": "Gujarat"
+  },
+  {
+    "district_id": "D0152",
+    "predicted_auth_failure_prob": 18.59,
+    "actual_auth_failure_prob": 18.81,
+    "risk_category": "High Risk",
+    "district_name": "Mehsana",
+    "state": "Gujarat"
+  },
+  {
+    "district_id": "D0154",
+    "predicted_auth_failure_prob": 17.86,
+    "actual_auth_failure_prob": 18.09,
+    "risk_category": "High Risk",
+    "district_name": "Narmada",
+    "state": "Gujarat"
+  },
+  {
+    "district_id": "D0159",
+    "predicted_auth_failure_prob": 19.53,
+    "actual_auth_failure_prob": 6.89,
+    "risk_category": "High Risk",
+    "district_name": "Rajkot",
+    "state": "Gujarat"
+  },
+  {
+    "district_id": "D0160",
+    "predicted_auth_failure_prob": 26.17,
+    "actual_auth_failure_prob": 26.85,
+    "risk_category": "High Risk",
+    "district_name": "Sabarkantha",
+    "state": "Gujarat"
+  },
+  {
+    "district_id": "D0162",
+    "predicted_auth_failure_prob": 16.14,
+    "actual_auth_failure_prob": 17.2,
+    "risk_category": "High Risk",
+    "district_name": "Surendranagar",
+    "state": "Gujarat"
+  },
+  {
+    "district_id": "D0164",
+    "predicted_auth_failure_prob": 16.15,
+    "actual_auth_failure_prob": 17.12,
+    "risk_category": "High Risk",
+    "district_name": "Vadodara",
+    "state": "Gujarat"
+  },
+  {
+    "district_id": "D0166",
+    "predicted_auth_failure_prob": 15.35,
+    "actual_auth_failure_prob": 18.79,
+    "risk_category": "High Risk",
+    "district_name": "Ambala",
+    "state": "Haryana"
+  },
+  {
+    "district_id": "D0167",
+    "predicted_auth_failure_prob": 18.34,
+    "actual_auth_failure_prob": 18.86,
+    "risk_category": "High Risk",
+    "district_name": "Bhiwani",
+    "state": "Haryana"
+  },
+  {
+    "district_id": "D0168",
+    "predicted_auth_failure_prob": 17.25,
+    "actual_auth_failure_prob": 18.99,
+    "risk_category": "High Risk",
+    "district_name": "Charkhi Dadri",
+    "state": "Haryana"
+  },
+  {
+    "district_id": "D0169",
+    "predicted_auth_failure_prob": 21.8,
+    "actual_auth_failure_prob": 23.42,
+    "risk_category": "High Risk",
+    "district_name": "Faridabad",
+    "state": "Haryana"
+  },
+  {
+    "district_id": "D0170",
+    "predicted_auth_failure_prob": 20.24,
+    "actual_auth_failure_prob": 21.11,
+    "risk_category": "High Risk",
+    "district_name": "Fatehabad",
+    "state": "Haryana"
+  },
+  {
+    "district_id": "D0171",
+    "predicted_auth_failure_prob": 15.76,
+    "actual_auth_failure_prob": 15.86,
+    "risk_category": "High Risk",
+    "district_name": "Gurugram",
+    "state": "Haryana"
+  },
+  {
+    "district_id": "D0172",
+    "predicted_auth_failure_prob": 25.12,
+    "actual_auth_failure_prob": 26.41,
+    "risk_category": "High Risk",
+    "district_name": "Hisar",
+    "state": "Haryana"
+  },
+  {
+    "district_id": "D0174",
+    "predicted_auth_failure_prob": 18.49,
+    "actual_auth_failure_prob": 18.67,
+    "risk_category": "High Risk",
+    "district_name": "Jind",
+    "state": "Haryana"
+  },
+  {
+    "district_id": "D0177",
+    "predicted_auth_failure_prob": 19.17,
+    "actual_auth_failure_prob": 19.89,
+    "risk_category": "High Risk",
+    "district_name": "Kurukshetra",
+    "state": "Haryana"
+  },
+  {
+    "district_id": "D0180",
+    "predicted_auth_failure_prob": 22.99,
+    "actual_auth_failure_prob": 23.33,
+    "risk_category": "High Risk",
+    "district_name": "Palwal",
+    "state": "Haryana"
+  },
+  {
+    "district_id": "D0181",
+    "predicted_auth_failure_prob": 28.16,
+    "actual_auth_failure_prob": 28.92,
+    "risk_category": "High Risk",
+    "district_name": "Panchkula",
+    "state": "Haryana"
+  },
+  {
+    "district_id": "D0183",
+    "predicted_auth_failure_prob": 29.68,
+    "actual_auth_failure_prob": 30.75,
+    "risk_category": "High Risk",
+    "district_name": "Rewari",
+    "state": "Haryana"
+  },
+  {
+    "district_id": "D0184",
+    "predicted_auth_failure_prob": 15.98,
+    "actual_auth_failure_prob": 18.59,
+    "risk_category": "High Risk",
+    "district_name": "Rohtak",
+    "state": "Haryana"
+  },
+  {
+    "district_id": "D0186",
+    "predicted_auth_failure_prob": 15.31,
+    "actual_auth_failure_prob": 16.33,
+    "risk_category": "High Risk",
+    "district_name": "Sonipat",
+    "state": "Haryana"
+  },
+  {
+    "district_id": "D0197",
+    "predicted_auth_failure_prob": 15.44,
+    "actual_auth_failure_prob": 10.76,
+    "risk_category": "High Risk",
+    "district_name": "Sirmaur",
+    "state": "Himachal Pradesh"
+  },
+  {
+    "district_id": "D0200",
+    "predicted_auth_failure_prob": 16.54,
+    "actual_auth_failure_prob": 17.15,
+    "risk_category": "High Risk",
+    "district_name": "Bokaro",
+    "state": "Jharkhand"
+  },
+  {
+    "district_id": "D0203",
+    "predicted_auth_failure_prob": 27.07,
+    "actual_auth_failure_prob": 27.55,
+    "risk_category": "High Risk",
+    "district_name": "Dhanbad",
+    "state": "Jharkhand"
+  },
+  {
+    "district_id": "D0204",
+    "predicted_auth_failure_prob": 22.69,
+    "actual_auth_failure_prob": 23.79,
+    "risk_category": "High Risk",
+    "district_name": "Dumka",
+    "state": "Jharkhand"
+  },
+  {
+    "district_id": "D0205",
+    "predicted_auth_failure_prob": 23.6,
+    "actual_auth_failure_prob": 16.87,
+    "risk_category": "High Risk",
+    "district_name": "East Singhbhum",
+    "state": "Jharkhand"
+  },
+  {
+    "district_id": "D0208",
+    "predicted_auth_failure_prob": 16.95,
+    "actual_auth_failure_prob": 17.95,
+    "risk_category": "High Risk",
+    "district_name": "Godda",
+    "state": "Jharkhand"
+  },
+  {
+    "district_id": "D0209",
+    "predicted_auth_failure_prob": 17.24,
+    "actual_auth_failure_prob": 18.43,
+    "risk_category": "High Risk",
+    "district_name": "Gumla",
+    "state": "Jharkhand"
+  },
+  {
+    "district_id": "D0212",
+    "predicted_auth_failure_prob": 16.48,
+    "actual_auth_failure_prob": 18.01,
+    "risk_category": "High Risk",
+    "district_name": "Khunti",
+    "state": "Jharkhand"
+  },
+  {
+    "district_id": "D0213",
+    "predicted_auth_failure_prob": 15.09,
+    "actual_auth_failure_prob": 12.28,
+    "risk_category": "High Risk",
+    "district_name": "Koderma",
+    "state": "Jharkhand"
+  },
+  {
+    "district_id": "D0215",
+    "predicted_auth_failure_prob": 15.43,
+    "actual_auth_failure_prob": 16.33,
+    "risk_category": "High Risk",
+    "district_name": "Lohardaga",
+    "state": "Jharkhand"
+  },
+  {
+    "district_id": "D0217",
+    "predicted_auth_failure_prob": 19.46,
+    "actual_auth_failure_prob": 19.9,
+    "risk_category": "High Risk",
+    "district_name": "Palamu",
+    "state": "Jharkhand"
+  },
+  {
+    "district_id": "D0218",
+    "predicted_auth_failure_prob": 16.46,
+    "actual_auth_failure_prob": 16.85,
+    "risk_category": "High Risk",
+    "district_name": "Ramgarh",
+    "state": "Jharkhand"
+  },
+  {
+    "district_id": "D0220",
+    "predicted_auth_failure_prob": 20.25,
+    "actual_auth_failure_prob": 22.74,
+    "risk_category": "High Risk",
+    "district_name": "Sahebganj",
+    "state": "Jharkhand"
+  },
+  {
+    "district_id": "D0223",
+    "predicted_auth_failure_prob": 15.67,
+    "actual_auth_failure_prob": 16.76,
+    "risk_category": "High Risk",
+    "district_name": "West Singhbhum",
+    "state": "Jharkhand"
+  },
+  {
+    "district_id": "D0231",
+    "predicted_auth_failure_prob": 17.0,
+    "actual_auth_failure_prob": 18.46,
+    "risk_category": "High Risk",
+    "district_name": "Chikkaballapur",
+    "state": "Karnataka"
+  },
+  {
+    "district_id": "D0234",
+    "predicted_auth_failure_prob": 24.0,
+    "actual_auth_failure_prob": 25.61,
+    "risk_category": "High Risk",
+    "district_name": "Dakshina Kannada",
+    "state": "Karnataka"
+  },
+  {
+    "district_id": "D0237",
+    "predicted_auth_failure_prob": 16.28,
+    "actual_auth_failure_prob": 17.85,
+    "risk_category": "High Risk",
+    "district_name": "Gadag",
+    "state": "Karnataka"
+  },
+  {
+    "district_id": "D0238",
+    "predicted_auth_failure_prob": 22.23,
+    "actual_auth_failure_prob": 23.11,
+    "risk_category": "High Risk",
+    "district_name": "Hassan",
+    "state": "Karnataka"
+  },
+  {
+    "district_id": "D0240",
+    "predicted_auth_failure_prob": 15.22,
+    "actual_auth_failure_prob": 17.88,
+    "risk_category": "High Risk",
+    "district_name": "Kalaburagi",
+    "state": "Karnataka"
+  },
+  {
+    "district_id": "D0244",
+    "predicted_auth_failure_prob": 15.88,
+    "actual_auth_failure_prob": 15.63,
+    "risk_category": "High Risk",
+    "district_name": "Mandya",
+    "state": "Karnataka"
+  },
+  {
+    "district_id": "D0245",
+    "predicted_auth_failure_prob": 27.07,
+    "actual_auth_failure_prob": 30.56,
+    "risk_category": "High Risk",
+    "district_name": "Mysuru",
+    "state": "Karnataka"
+  },
+  {
+    "district_id": "D0250",
+    "predicted_auth_failure_prob": 16.92,
+    "actual_auth_failure_prob": 17.28,
+    "risk_category": "High Risk",
+    "district_name": "Udupi",
+    "state": "Karnataka"
+  },
+  {
+    "district_id": "D0255",
+    "predicted_auth_failure_prob": 26.9,
+    "actual_auth_failure_prob": 28.45,
+    "risk_category": "High Risk",
+    "district_name": "Ernakulam",
+    "state": "Kerala"
+  },
+  {
+    "district_id": "D0262",
+    "predicted_auth_failure_prob": 16.55,
+    "actual_auth_failure_prob": 18.1,
+    "risk_category": "High Risk",
+    "district_name": "Malappuram",
+    "state": "Kerala"
+  },
+  {
+    "district_id": "D0274",
+    "predicted_auth_failure_prob": 16.97,
+    "actual_auth_failure_prob": 18.72,
+    "risk_category": "High Risk",
+    "district_name": "Betul",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "district_id": "D0277",
+    "predicted_auth_failure_prob": 19.58,
+    "actual_auth_failure_prob": 21.29,
+    "risk_category": "High Risk",
+    "district_name": "Burhanpur",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "district_id": "D0278",
+    "predicted_auth_failure_prob": 24.74,
+    "actual_auth_failure_prob": 24.93,
+    "risk_category": "High Risk",
+    "district_name": "Chhatarpur",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "district_id": "D0281",
+    "predicted_auth_failure_prob": 24.1,
+    "actual_auth_failure_prob": 24.31,
+    "risk_category": "High Risk",
+    "district_name": "Datia",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "district_id": "D0286",
+    "predicted_auth_failure_prob": 16.31,
+    "actual_auth_failure_prob": 16.08,
+    "risk_category": "High Risk",
+    "district_name": "Gwalior",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "district_id": "D0292",
+    "predicted_auth_failure_prob": 15.18,
+    "actual_auth_failure_prob": 5.42,
+    "risk_category": "High Risk",
+    "district_name": "Katni",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "district_id": "D0297",
+    "predicted_auth_failure_prob": 23.16,
+    "actual_auth_failure_prob": 25.49,
+    "risk_category": "High Risk",
+    "district_name": "Morena",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "district_id": "D0298",
+    "predicted_auth_failure_prob": 15.09,
+    "actual_auth_failure_prob": 15.32,
+    "risk_category": "High Risk",
+    "district_name": "Narsinghpur",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "district_id": "D0301",
+    "predicted_auth_failure_prob": 15.05,
+    "actual_auth_failure_prob": 12.64,
+    "risk_category": "High Risk",
+    "district_name": "Raisen",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "district_id": "D0302",
+    "predicted_auth_failure_prob": 20.68,
+    "actual_auth_failure_prob": 22.01,
+    "risk_category": "High Risk",
+    "district_name": "Rajgarh",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "district_id": "D0306",
+    "predicted_auth_failure_prob": 21.24,
+    "actual_auth_failure_prob": 21.32,
+    "risk_category": "High Risk",
+    "district_name": "Satna",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "district_id": "D0311",
+    "predicted_auth_failure_prob": 21.28,
+    "actual_auth_failure_prob": 22.25,
+    "risk_category": "High Risk",
+    "district_name": "Sheopur",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "district_id": "D0312",
+    "predicted_auth_failure_prob": 15.09,
+    "actual_auth_failure_prob": 4.43,
+    "risk_category": "High Risk",
+    "district_name": "Shivpuri",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "district_id": "D0316",
+    "predicted_auth_failure_prob": 17.52,
+    "actual_auth_failure_prob": 18.96,
+    "risk_category": "High Risk",
+    "district_name": "Ujjain",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "district_id": "D0317",
+    "predicted_auth_failure_prob": 17.51,
+    "actual_auth_failure_prob": 18.66,
+    "risk_category": "High Risk",
+    "district_name": "Umaria",
+    "state": "Madhya Pradesh"
+  },
+  {
+    "district_id": "D0322",
+    "predicted_auth_failure_prob": 16.47,
+    "actual_auth_failure_prob": 18.22,
+    "risk_category": "High Risk",
+    "district_name": "Aurangabad",
+    "state": "Maharashtra"
+  },
+  {
+    "district_id": "D0327",
+    "predicted_auth_failure_prob": 19.29,
+    "actual_auth_failure_prob": 26.88,
+    "risk_category": "High Risk",
+    "district_name": "Dhule",
+    "state": "Maharashtra"
+  },
+  {
+    "district_id": "D0335",
+    "predicted_auth_failure_prob": 18.17,
+    "actual_auth_failure_prob": 19.74,
+    "risk_category": "High Risk",
+    "district_name": "Mumbai City",
+    "state": "Maharashtra"
+  },
+  {
+    "district_id": "D0336",
+    "predicted_auth_failure_prob": 15.69,
+    "actual_auth_failure_prob": 16.34,
+    "risk_category": "High Risk",
+    "district_name": "Mumbai Suburban",
+    "state": "Maharashtra"
+  },
+  {
+    "district_id": "D0337",
+    "predicted_auth_failure_prob": 22.78,
+    "actual_auth_failure_prob": 11.62,
+    "risk_category": "High Risk",
+    "district_name": "Nagpur",
+    "state": "Maharashtra"
+  },
+  {
+    "district_id": "D0338",
+    "predicted_auth_failure_prob": 18.75,
+    "actual_auth_failure_prob": 19.42,
+    "risk_category": "High Risk",
+    "district_name": "Nanded",
+    "state": "Maharashtra"
+  },
+  {
+    "district_id": "D0344",
+    "predicted_auth_failure_prob": 17.05,
+    "actual_auth_failure_prob": 18.55,
+    "risk_category": "High Risk",
+    "district_name": "Pune",
+    "state": "Maharashtra"
+  },
+  {
+    "district_id": "D0346",
+    "predicted_auth_failure_prob": 16.43,
+    "actual_auth_failure_prob": 17.43,
+    "risk_category": "High Risk",
+    "district_name": "Ratnagiri",
+    "state": "Maharashtra"
+  },
+  {
+    "district_id": "D0349",
+    "predicted_auth_failure_prob": 19.04,
+    "actual_auth_failure_prob": 20.0,
+    "risk_category": "High Risk",
+    "district_name": "Sindhudurg",
+    "state": "Maharashtra"
+  },
+  {
+    "district_id": "D0351",
+    "predicted_auth_failure_prob": 15.52,
+    "actual_auth_failure_prob": 15.98,
+    "risk_category": "High Risk",
+    "district_name": "Thane",
+    "state": "Maharashtra"
+  },
+  {
+    "district_id": "D0360",
+    "predicted_auth_failure_prob": 18.9,
+    "actual_auth_failure_prob": 18.9,
+    "risk_category": "High Risk",
+    "district_name": "Jiribam",
+    "state": "Manipur"
+  },
+  {
+    "district_id": "D0363",
+    "predicted_auth_failure_prob": 29.7,
+    "actual_auth_failure_prob": 30.0,
+    "risk_category": "High Risk",
+    "district_name": "Kangpokpi",
+    "state": "Manipur"
+  },
+  {
+    "district_id": "D0365",
+    "predicted_auth_failure_prob": 16.4,
+    "actual_auth_failure_prob": 15.71,
+    "risk_category": "High Risk",
+    "district_name": "Pherzawl",
+    "state": "Manipur"
+  },
+  {
+    "district_id": "D0369",
+    "predicted_auth_failure_prob": 17.83,
+    "actual_auth_failure_prob": 18.3,
+    "risk_category": "High Risk",
+    "district_name": "Thoubal",
+    "state": "Manipur"
+  },
+  {
+    "district_id": "D0370",
+    "predicted_auth_failure_prob": 23.11,
+    "actual_auth_failure_prob": 24.68,
+    "risk_category": "High Risk",
+    "district_name": "Ukhrul",
+    "state": "Manipur"
+  },
+  {
+    "district_id": "D0372",
+    "predicted_auth_failure_prob": 17.96,
+    "actual_auth_failure_prob": 19.05,
+    "risk_category": "High Risk",
+    "district_name": "East Jaintia Hills",
+    "state": "Meghalaya"
+  },
+  {
+    "district_id": "D0373",
+    "predicted_auth_failure_prob": 27.05,
+    "actual_auth_failure_prob": 26.7,
+    "risk_category": "High Risk",
+    "district_name": "East Khasi Hills",
+    "state": "Meghalaya"
+  },
+  {
+    "district_id": "D0375",
+    "predicted_auth_failure_prob": 15.79,
+    "actual_auth_failure_prob": 17.26,
+    "risk_category": "High Risk",
+    "district_name": "Ri Bhoi",
+    "state": "Meghalaya"
+  },
+  {
+    "district_id": "D0380",
+    "predicted_auth_failure_prob": 15.52,
+    "actual_auth_failure_prob": 16.31,
+    "risk_category": "High Risk",
+    "district_name": "West Jaintia Hills",
+    "state": "Meghalaya"
+  },
+  {
+    "district_id": "D0384",
+    "predicted_auth_failure_prob": 20.77,
+    "actual_auth_failure_prob": 21.64,
+    "risk_category": "High Risk",
+    "district_name": "Kolasib",
+    "state": "Mizoram"
+  },
+  {
+    "district_id": "D0386",
+    "predicted_auth_failure_prob": 20.15,
+    "actual_auth_failure_prob": 24.15,
+    "risk_category": "High Risk",
+    "district_name": "Lunglei",
+    "state": "Mizoram"
+  },
+  {
+    "district_id": "D0398",
+    "predicted_auth_failure_prob": 23.18,
+    "actual_auth_failure_prob": 24.94,
+    "risk_category": "High Risk",
+    "district_name": "Tuensang",
+    "state": "Nagaland"
+  },
+  {
+    "district_id": "D0399",
+    "predicted_auth_failure_prob": 19.64,
+    "actual_auth_failure_prob": 21.14,
+    "risk_category": "High Risk",
+    "district_name": "Wokha",
+    "state": "Nagaland"
+  },
+  {
+    "district_id": "D0408",
+    "predicted_auth_failure_prob": 23.12,
+    "actual_auth_failure_prob": 23.27,
+    "risk_category": "High Risk",
+    "district_name": "Deogarh",
+    "state": "Odisha"
+  },
+  {
+    "district_id": "D0409",
+    "predicted_auth_failure_prob": 20.05,
+    "actual_auth_failure_prob": 23.88,
+    "risk_category": "High Risk",
+    "district_name": "Dhenkanal",
+    "state": "Odisha"
+  },
+  {
+    "district_id": "D0411",
+    "predicted_auth_failure_prob": 16.49,
+    "actual_auth_failure_prob": 17.16,
+    "risk_category": "High Risk",
+    "district_name": "Ganjam",
+    "state": "Odisha"
+  },
+  {
+    "district_id": "D0412",
+    "predicted_auth_failure_prob": 20.23,
+    "actual_auth_failure_prob": 20.32,
+    "risk_category": "High Risk",
+    "district_name": "Jagatsinghpur",
+    "state": "Odisha"
+  },
+  {
+    "district_id": "D0414",
+    "predicted_auth_failure_prob": 18.7,
+    "actual_auth_failure_prob": 23.6,
+    "risk_category": "High Risk",
+    "district_name": "Jharsuguda",
+    "state": "Odisha"
+  },
+  {
+    "district_id": "D0418",
+    "predicted_auth_failure_prob": 17.15,
+    "actual_auth_failure_prob": 19.65,
+    "risk_category": "High Risk",
+    "district_name": "Kendujhar",
+    "state": "Odisha"
+  },
+  {
+    "district_id": "D0419",
+    "predicted_auth_failure_prob": 18.78,
+    "actual_auth_failure_prob": 18.47,
+    "risk_category": "High Risk",
+    "district_name": "Khordha",
+    "state": "Odisha"
+  },
+  {
+    "district_id": "D0421",
+    "predicted_auth_failure_prob": 20.57,
+    "actual_auth_failure_prob": 32.13,
+    "risk_category": "High Risk",
+    "district_name": "Malkangiri",
+    "state": "Odisha"
+  },
+  {
+    "district_id": "D0423",
+    "predicted_auth_failure_prob": 16.43,
+    "actual_auth_failure_prob": 18.04,
+    "risk_category": "High Risk",
+    "district_name": "Nabarangpur",
+    "state": "Odisha"
+  },
+  {
+    "district_id": "D0424",
+    "predicted_auth_failure_prob": 15.99,
+    "actual_auth_failure_prob": 16.01,
+    "risk_category": "High Risk",
+    "district_name": "Nayagarh",
+    "state": "Odisha"
+  },
+  {
+    "district_id": "D0427",
+    "predicted_auth_failure_prob": 18.16,
+    "actual_auth_failure_prob": 19.75,
+    "risk_category": "High Risk",
+    "district_name": "Rayagada",
+    "state": "Odisha"
+  },
+  {
+    "district_id": "D0428",
+    "predicted_auth_failure_prob": 20.81,
+    "actual_auth_failure_prob": 22.79,
+    "risk_category": "High Risk",
+    "district_name": "Sambalpur",
+    "state": "Odisha"
+  },
+  {
+    "district_id": "D0431",
+    "predicted_auth_failure_prob": 16.78,
+    "actual_auth_failure_prob": 16.06,
+    "risk_category": "High Risk",
+    "district_name": "Amritsar",
+    "state": "Punjab"
+  },
+  {
+    "district_id": "D0434",
+    "predicted_auth_failure_prob": 16.27,
+    "actual_auth_failure_prob": 16.52,
+    "risk_category": "High Risk",
+    "district_name": "Faridkot",
+    "state": "Punjab"
+  },
+  {
+    "district_id": "D0436",
+    "predicted_auth_failure_prob": 15.75,
+    "actual_auth_failure_prob": 16.84,
+    "risk_category": "High Risk",
+    "district_name": "Fazilka",
+    "state": "Punjab"
+  },
+  {
+    "district_id": "D0438",
+    "predicted_auth_failure_prob": 17.8,
+    "actual_auth_failure_prob": 10.17,
+    "risk_category": "High Risk",
+    "district_name": "Gurdaspur",
+    "state": "Punjab"
+  },
+  {
+    "district_id": "D0440",
+    "predicted_auth_failure_prob": 17.12,
+    "actual_auth_failure_prob": 21.32,
+    "risk_category": "High Risk",
+    "district_name": "Jalandhar",
+    "state": "Punjab"
+  },
+  {
+    "district_id": "D0442",
+    "predicted_auth_failure_prob": 30.06,
+    "actual_auth_failure_prob": 30.35,
+    "risk_category": "High Risk",
+    "district_name": "Ludhiana",
+    "state": "Punjab"
+  },
+  {
+    "district_id": "D0446",
+    "predicted_auth_failure_prob": 23.08,
+    "actual_auth_failure_prob": 23.28,
+    "risk_category": "High Risk",
+    "district_name": "Muktsar",
+    "state": "Punjab"
+  },
+  {
+    "district_id": "D0448",
+    "predicted_auth_failure_prob": 17.88,
+    "actual_auth_failure_prob": 17.56,
+    "risk_category": "High Risk",
+    "district_name": "Pathankot",
+    "state": "Punjab"
+  },
+  {
+    "district_id": "D0450",
+    "predicted_auth_failure_prob": 16.38,
+    "actual_auth_failure_prob": 17.6,
+    "risk_category": "High Risk",
+    "district_name": "Rupnagar",
+    "state": "Punjab"
+  },
+  {
+    "district_id": "D0460",
+    "predicted_auth_failure_prob": 17.4,
+    "actual_auth_failure_prob": 18.53,
+    "risk_category": "High Risk",
+    "district_name": "Bikaner",
+    "state": "Rajasthan"
+  },
+  {
+    "district_id": "D0463",
+    "predicted_auth_failure_prob": 20.52,
+    "actual_auth_failure_prob": 23.74,
+    "risk_category": "High Risk",
+    "district_name": "Churu",
+    "state": "Rajasthan"
+  },
+  {
+    "district_id": "D0466",
+    "predicted_auth_failure_prob": 16.2,
+    "actual_auth_failure_prob": 18.47,
+    "risk_category": "High Risk",
+    "district_name": "Dungarpur",
+    "state": "Rajasthan"
+  },
+  {
+    "district_id": "D0467",
+    "predicted_auth_failure_prob": 15.69,
+    "actual_auth_failure_prob": 15.86,
+    "risk_category": "High Risk",
+    "district_name": "Hanumangarh",
+    "state": "Rajasthan"
+  },
+  {
+    "district_id": "D0470",
+    "predicted_auth_failure_prob": 19.93,
+    "actual_auth_failure_prob": 21.1,
+    "risk_category": "High Risk",
+    "district_name": "Jalore",
+    "state": "Rajasthan"
+  },
+  {
+    "district_id": "D0472",
+    "predicted_auth_failure_prob": 15.9,
+    "actual_auth_failure_prob": 18.05,
+    "risk_category": "High Risk",
+    "district_name": "Jhunjhunu",
+    "state": "Rajasthan"
+  },
+  {
+    "district_id": "D0473",
+    "predicted_auth_failure_prob": 19.51,
+    "actual_auth_failure_prob": 19.66,
+    "risk_category": "High Risk",
+    "district_name": "Jodhpur",
+    "state": "Rajasthan"
+  },
+  {
+    "district_id": "D0475",
+    "predicted_auth_failure_prob": 16.29,
+    "actual_auth_failure_prob": 17.84,
+    "risk_category": "High Risk",
+    "district_name": "Kota",
+    "state": "Rajasthan"
+  },
+  {
+    "district_id": "D0477",
+    "predicted_auth_failure_prob": 17.76,
+    "actual_auth_failure_prob": 19.49,
+    "risk_category": "High Risk",
+    "district_name": "Pali",
+    "state": "Rajasthan"
+  },
+  {
+    "district_id": "D0483",
+    "predicted_auth_failure_prob": 27.67,
+    "actual_auth_failure_prob": 29.27,
+    "risk_category": "High Risk",
+    "district_name": "Sri Ganganagar",
+    "state": "Rajasthan"
+  },
+  {
+    "district_id": "D0487",
+    "predicted_auth_failure_prob": 16.93,
+    "actual_auth_failure_prob": 17.29,
+    "risk_category": "High Risk",
+    "district_name": "North Sikkim",
+    "state": "Sikkim"
+  },
+  {
+    "district_id": "D0489",
+    "predicted_auth_failure_prob": 17.16,
+    "actual_auth_failure_prob": 16.87,
+    "risk_category": "High Risk",
+    "district_name": "West Sikkim",
+    "state": "Sikkim"
+  },
+  {
+    "district_id": "D0491",
+    "predicted_auth_failure_prob": 23.88,
+    "actual_auth_failure_prob": 9.63,
+    "risk_category": "High Risk",
+    "district_name": "Chengalpattu",
+    "state": "Tamil Nadu"
+  },
+  {
+    "district_id": "D0497",
+    "predicted_auth_failure_prob": 20.07,
+    "actual_auth_failure_prob": 23.01,
+    "risk_category": "High Risk",
+    "district_name": "Erode",
+    "state": "Tamil Nadu"
+  },
+  {
+    "district_id": "D0499",
+    "predicted_auth_failure_prob": 18.78,
+    "actual_auth_failure_prob": 18.7,
+    "risk_category": "High Risk",
+    "district_name": "Kancheepuram",
+    "state": "Tamil Nadu"
+  },
+  {
+    "district_id": "D0501",
+    "predicted_auth_failure_prob": 19.56,
+    "actual_auth_failure_prob": 20.26,
+    "risk_category": "High Risk",
+    "district_name": "Krishnagiri",
+    "state": "Tamil Nadu"
+  },
+  {
+    "district_id": "D0503",
+    "predicted_auth_failure_prob": 17.08,
+    "actual_auth_failure_prob": 17.12,
+    "risk_category": "High Risk",
+    "district_name": "Nagapattinam",
+    "state": "Tamil Nadu"
+  },
+  {
+    "district_id": "D0504",
+    "predicted_auth_failure_prob": 20.87,
+    "actual_auth_failure_prob": 21.73,
+    "risk_category": "High Risk",
+    "district_name": "Namakkal",
+    "state": "Tamil Nadu"
+  },
+  {
+    "district_id": "D0506",
+    "predicted_auth_failure_prob": 15.63,
+    "actual_auth_failure_prob": 15.36,
+    "risk_category": "High Risk",
+    "district_name": "Perambalur",
+    "state": "Tamil Nadu"
+  },
+  {
+    "district_id": "D0507",
+    "predicted_auth_failure_prob": 22.1,
+    "actual_auth_failure_prob": 28.56,
+    "risk_category": "High Risk",
+    "district_name": "Pudukkottai",
+    "state": "Tamil Nadu"
+  },
+  {
+    "district_id": "D0511",
+    "predicted_auth_failure_prob": 16.69,
+    "actual_auth_failure_prob": 16.57,
+    "risk_category": "High Risk",
+    "district_name": "Sivaganga",
+    "state": "Tamil Nadu"
+  },
+  {
+    "district_id": "D0513",
+    "predicted_auth_failure_prob": 15.39,
+    "actual_auth_failure_prob": 5.23,
+    "risk_category": "High Risk",
+    "district_name": "Thanjavur",
+    "state": "Tamil Nadu"
+  },
+  {
+    "district_id": "D0514",
+    "predicted_auth_failure_prob": 17.27,
+    "actual_auth_failure_prob": 17.12,
+    "risk_category": "High Risk",
+    "district_name": "Theni",
+    "state": "Tamil Nadu"
+  },
+  {
+    "district_id": "D0519",
+    "predicted_auth_failure_prob": 22.55,
+    "actual_auth_failure_prob": 16.4,
+    "risk_category": "High Risk",
+    "district_name": "Tiruppur",
+    "state": "Tamil Nadu"
+  },
+  {
+    "district_id": "D0522",
+    "predicted_auth_failure_prob": 24.46,
+    "actual_auth_failure_prob": 25.96,
+    "risk_category": "High Risk",
+    "district_name": "Tiruvarur",
+    "state": "Tamil Nadu"
+  },
+  {
+    "district_id": "D0524",
+    "predicted_auth_failure_prob": 21.02,
+    "actual_auth_failure_prob": 17.24,
+    "risk_category": "High Risk",
+    "district_name": "Viluppuram",
+    "state": "Tamil Nadu"
+  },
+  {
+    "district_id": "D0530",
+    "predicted_auth_failure_prob": 22.48,
+    "actual_auth_failure_prob": 24.7,
+    "risk_category": "High Risk",
+    "district_name": "Jangaon",
+    "state": "Telangana"
+  },
+  {
+    "district_id": "D0531",
+    "predicted_auth_failure_prob": 17.9,
+    "actual_auth_failure_prob": 17.76,
+    "risk_category": "High Risk",
+    "district_name": "Jayashankar Bhupalpally",
+    "state": "Telangana"
+  },
+  {
+    "district_id": "D0535",
+    "predicted_auth_failure_prob": 24.69,
+    "actual_auth_failure_prob": 25.42,
+    "risk_category": "High Risk",
+    "district_name": "Khammam",
+    "state": "Telangana"
+  },
+  {
+    "district_id": "D0536",
+    "predicted_auth_failure_prob": 24.48,
+    "actual_auth_failure_prob": 9.59,
+    "risk_category": "High Risk",
+    "district_name": "Kumuram Bheem Asifabad",
+    "state": "Telangana"
+  },
+  {
+    "district_id": "D0537",
+    "predicted_auth_failure_prob": 15.47,
+    "actual_auth_failure_prob": 16.88,
+    "risk_category": "High Risk",
+    "district_name": "Mahabubabad",
+    "state": "Telangana"
+  },
+  {
+    "district_id": "D0538",
+    "predicted_auth_failure_prob": 15.91,
+    "actual_auth_failure_prob": 16.51,
+    "risk_category": "High Risk",
+    "district_name": "Mahabubnagar",
+    "state": "Telangana"
+  },
+  {
+    "district_id": "D0539",
+    "predicted_auth_failure_prob": 18.27,
+    "actual_auth_failure_prob": 18.56,
+    "risk_category": "High Risk",
+    "district_name": "Mancherial",
+    "state": "Telangana"
+  },
+  {
+    "district_id": "D0540",
+    "predicted_auth_failure_prob": 21.75,
+    "actual_auth_failure_prob": 24.97,
+    "risk_category": "High Risk",
+    "district_name": "Medak",
+    "state": "Telangana"
+  },
+  {
+    "district_id": "D0541",
+    "predicted_auth_failure_prob": 15.78,
+    "actual_auth_failure_prob": 17.59,
+    "risk_category": "High Risk",
+    "district_name": "Medchal-Malkajgiri",
+    "state": "Telangana"
+  },
+  {
+    "district_id": "D0542",
+    "predicted_auth_failure_prob": 16.81,
+    "actual_auth_failure_prob": 18.49,
+    "risk_category": "High Risk",
+    "district_name": "Mulugu",
+    "state": "Telangana"
+  },
+  {
+    "district_id": "D0543",
+    "predicted_auth_failure_prob": 18.08,
+    "actual_auth_failure_prob": 19.77,
+    "risk_category": "High Risk",
+    "district_name": "Nagarkurnool",
+    "state": "Telangana"
+  },
+  {
+    "district_id": "D0545",
+    "predicted_auth_failure_prob": 22.23,
+    "actual_auth_failure_prob": 33.26,
+    "risk_category": "High Risk",
+    "district_name": "Narayanpet",
+    "state": "Telangana"
+  },
+  {
+    "district_id": "D0547",
+    "predicted_auth_failure_prob": 18.11,
+    "actual_auth_failure_prob": 18.18,
+    "risk_category": "High Risk",
+    "district_name": "Nizamabad",
+    "state": "Telangana"
+  },
+  {
+    "district_id": "D0548",
+    "predicted_auth_failure_prob": 25.97,
+    "actual_auth_failure_prob": 27.63,
+    "risk_category": "High Risk",
+    "district_name": "Peddapalli",
+    "state": "Telangana"
+  },
+  {
+    "district_id": "D0554",
+    "predicted_auth_failure_prob": 20.06,
+    "actual_auth_failure_prob": 20.93,
+    "risk_category": "High Risk",
+    "district_name": "Vikarabad",
+    "state": "Telangana"
+  },
+  {
+    "district_id": "D0560",
+    "predicted_auth_failure_prob": 21.84,
+    "actual_auth_failure_prob": 11.09,
+    "risk_category": "High Risk",
+    "district_name": "Gomati",
+    "state": "Tripura"
+  },
+  {
+    "district_id": "D0561",
+    "predicted_auth_failure_prob": 19.05,
+    "actual_auth_failure_prob": 20.21,
+    "risk_category": "High Risk",
+    "district_name": "Khowai",
+    "state": "Tripura"
+  },
+  {
+    "district_id": "D0562",
+    "predicted_auth_failure_prob": 16.79,
+    "actual_auth_failure_prob": 19.25,
+    "risk_category": "High Risk",
+    "district_name": "North Tripura",
+    "state": "Tripura"
+  },
+  {
+    "district_id": "D0564",
+    "predicted_auth_failure_prob": 16.94,
+    "actual_auth_failure_prob": 17.73,
+    "risk_category": "High Risk",
+    "district_name": "South Tripura",
+    "state": "Tripura"
+  },
+  {
+    "district_id": "D0568",
+    "predicted_auth_failure_prob": 16.22,
+    "actual_auth_failure_prob": 30.76,
+    "risk_category": "High Risk",
+    "district_name": "Aligarh",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "district_id": "D0569",
+    "predicted_auth_failure_prob": 18.56,
+    "actual_auth_failure_prob": 20.41,
+    "risk_category": "High Risk",
+    "district_name": "Ambedkar Nagar",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "district_id": "D0572",
+    "predicted_auth_failure_prob": 16.47,
+    "actual_auth_failure_prob": 15.22,
+    "risk_category": "High Risk",
+    "district_name": "Auraiya",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "district_id": "D0574",
+    "predicted_auth_failure_prob": 15.21,
+    "actual_auth_failure_prob": 15.95,
+    "risk_category": "High Risk",
+    "district_name": "Azamgarh",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "district_id": "D0576",
+    "predicted_auth_failure_prob": 20.32,
+    "actual_auth_failure_prob": 22.02,
+    "risk_category": "High Risk",
+    "district_name": "Bahraich",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "district_id": "D0584",
+    "predicted_auth_failure_prob": 18.81,
+    "actual_auth_failure_prob": 25.75,
+    "risk_category": "High Risk",
+    "district_name": "Bijnor",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "district_id": "D0591",
+    "predicted_auth_failure_prob": 23.59,
+    "actual_auth_failure_prob": 28.24,
+    "risk_category": "High Risk",
+    "district_name": "Etawah",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "district_id": "D0593",
+    "predicted_auth_failure_prob": 16.19,
+    "actual_auth_failure_prob": 17.21,
+    "risk_category": "High Risk",
+    "district_name": "Fatehpur",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "district_id": "D0594",
+    "predicted_auth_failure_prob": 20.66,
+    "actual_auth_failure_prob": 21.89,
+    "risk_category": "High Risk",
+    "district_name": "Firozabad",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "district_id": "D0596",
+    "predicted_auth_failure_prob": 18.26,
+    "actual_auth_failure_prob": 18.71,
+    "risk_category": "High Risk",
+    "district_name": "Ghaziabad",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "district_id": "D0602",
+    "predicted_auth_failure_prob": 18.32,
+    "actual_auth_failure_prob": 18.5,
+    "risk_category": "High Risk",
+    "district_name": "Hardoi",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "district_id": "D0605",
+    "predicted_auth_failure_prob": 19.09,
+    "actual_auth_failure_prob": 19.3,
+    "risk_category": "High Risk",
+    "district_name": "Jaunpur",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "district_id": "D0609",
+    "predicted_auth_failure_prob": 17.91,
+    "actual_auth_failure_prob": 19.97,
+    "risk_category": "High Risk",
+    "district_name": "Kanpur Nagar",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "district_id": "D0612",
+    "predicted_auth_failure_prob": 21.24,
+    "actual_auth_failure_prob": 18.92,
+    "risk_category": "High Risk",
+    "district_name": "Kheri",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "district_id": "D0614",
+    "predicted_auth_failure_prob": 22.96,
+    "actual_auth_failure_prob": 23.35,
+    "risk_category": "High Risk",
+    "district_name": "Lalitpur",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "district_id": "D0615",
+    "predicted_auth_failure_prob": 17.36,
+    "actual_auth_failure_prob": 19.25,
+    "risk_category": "High Risk",
+    "district_name": "Lucknow",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "district_id": "D0616",
+    "predicted_auth_failure_prob": 15.19,
+    "actual_auth_failure_prob": 18.42,
+    "risk_category": "High Risk",
+    "district_name": "Maharajganj",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "district_id": "D0618",
+    "predicted_auth_failure_prob": 16.19,
+    "actual_auth_failure_prob": 18.11,
+    "risk_category": "High Risk",
+    "district_name": "Mainpuri",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "district_id": "D0619",
+    "predicted_auth_failure_prob": 24.47,
+    "actual_auth_failure_prob": 25.1,
+    "risk_category": "High Risk",
+    "district_name": "Mathura",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "district_id": "D0620",
+    "predicted_auth_failure_prob": 19.45,
+    "actual_auth_failure_prob": 6.91,
+    "risk_category": "High Risk",
+    "district_name": "Mau",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "district_id": "D0623",
+    "predicted_auth_failure_prob": 15.08,
+    "actual_auth_failure_prob": 17.82,
+    "risk_category": "High Risk",
+    "district_name": "Moradabad",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "district_id": "D0629",
+    "predicted_auth_failure_prob": 15.58,
+    "actual_auth_failure_prob": 27.04,
+    "risk_category": "High Risk",
+    "district_name": "Rampur",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "district_id": "D0630",
+    "predicted_auth_failure_prob": 15.71,
+    "actual_auth_failure_prob": 16.38,
+    "risk_category": "High Risk",
+    "district_name": "Saharanpur",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "district_id": "D0634",
+    "predicted_auth_failure_prob": 21.69,
+    "actual_auth_failure_prob": 22.52,
+    "risk_category": "High Risk",
+    "district_name": "Shamli",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "district_id": "D0639",
+    "predicted_auth_failure_prob": 15.41,
+    "actual_auth_failure_prob": 15.91,
+    "risk_category": "High Risk",
+    "district_name": "Sultanpur",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "district_id": "D0641",
+    "predicted_auth_failure_prob": 16.73,
+    "actual_auth_failure_prob": 17.43,
+    "risk_category": "High Risk",
+    "district_name": "Varanasi",
+    "state": "Uttar Pradesh"
+  },
+  {
+    "district_id": "D0642",
+    "predicted_auth_failure_prob": 24.42,
+    "actual_auth_failure_prob": 24.74,
+    "risk_category": "High Risk",
+    "district_name": "Almora",
+    "state": "Uttarakhand"
+  },
+  {
+    "district_id": "D0647",
+    "predicted_auth_failure_prob": 15.89,
+    "actual_auth_failure_prob": 17.27,
+    "risk_category": "High Risk",
+    "district_name": "Haridwar",
+    "state": "Uttarakhand"
+  },
+  {
+    "district_id": "D0648",
+    "predicted_auth_failure_prob": 17.37,
+    "actual_auth_failure_prob": 17.72,
+    "risk_category": "High Risk",
+    "district_name": "Nainital",
+    "state": "Uttarakhand"
+  },
+  {
+    "district_id": "D0649",
+    "predicted_auth_failure_prob": 16.09,
+    "actual_auth_failure_prob": 17.24,
+    "risk_category": "High Risk",
+    "district_name": "Pauri Garhwal",
+    "state": "Uttarakhand"
+  },
+  {
+    "district_id": "D0650",
+    "predicted_auth_failure_prob": 31.55,
+    "actual_auth_failure_prob": 32.97,
+    "risk_category": "High Risk",
+    "district_name": "Pithoragarh",
+    "state": "Uttarakhand"
+  },
+  {
+    "district_id": "D0651",
+    "predicted_auth_failure_prob": 15.27,
+    "actual_auth_failure_prob": 15.19,
+    "risk_category": "High Risk",
+    "district_name": "Rudraprayag",
+    "state": "Uttarakhand"
+  },
+  {
+    "district_id": "D0652",
+    "predicted_auth_failure_prob": 15.25,
+    "actual_auth_failure_prob": 5.75,
+    "risk_category": "High Risk",
+    "district_name": "Tehri Garhwal",
+    "state": "Uttarakhand"
+  },
+  {
+    "district_id": "D0653",
+    "predicted_auth_failure_prob": 19.33,
+    "actual_auth_failure_prob": 19.44,
+    "risk_category": "High Risk",
+    "district_name": "Udham Singh Nagar",
+    "state": "Uttarakhand"
+  },
+  {
+    "district_id": "D0654",
+    "predicted_auth_failure_prob": 19.6,
+    "actual_auth_failure_prob": 22.19,
+    "risk_category": "High Risk",
+    "district_name": "Uttarkashi",
+    "state": "Uttarakhand"
+  },
+  {
+    "district_id": "D0655",
+    "predicted_auth_failure_prob": 21.69,
+    "actual_auth_failure_prob": 21.44,
+    "risk_category": "High Risk",
+    "district_name": "Alipurduar",
+    "state": "West Bengal"
+  },
+  {
+    "district_id": "D0657",
+    "predicted_auth_failure_prob": 17.13,
+    "actual_auth_failure_prob": 17.54,
+    "risk_category": "High Risk",
+    "district_name": "Birbhum",
+    "state": "West Bengal"
+  },
+  {
+    "district_id": "D0665",
+    "predicted_auth_failure_prob": 21.07,
+    "actual_auth_failure_prob": 23.15,
+    "risk_category": "High Risk",
+    "district_name": "Kalimpong",
+    "state": "West Bengal"
+  },
+  {
+    "district_id": "D0666",
+    "predicted_auth_failure_prob": 22.62,
+    "actual_auth_failure_prob": 23.76,
+    "risk_category": "High Risk",
+    "district_name": "Kolkata",
+    "state": "West Bengal"
+  },
+  {
+    "district_id": "D0667",
+    "predicted_auth_failure_prob": 15.21,
+    "actual_auth_failure_prob": 15.14,
+    "risk_category": "High Risk",
+    "district_name": "Malda",
+    "state": "West Bengal"
+  },
+  {
+    "district_id": "D0670",
+    "predicted_auth_failure_prob": 17.58,
+    "actual_auth_failure_prob": 18.03,
+    "risk_category": "High Risk",
+    "district_name": "North 24 Parganas",
+    "state": "West Bengal"
+  },
+  {
+    "district_id": "D0672",
+    "predicted_auth_failure_prob": 16.32,
+    "actual_auth_failure_prob": 16.68,
+    "risk_category": "High Risk",
+    "district_name": "Paschim Medinipur",
+    "state": "West Bengal"
+  },
+  {
+    "district_id": "D0674",
+    "predicted_auth_failure_prob": 18.05,
+    "actual_auth_failure_prob": 18.17,
+    "risk_category": "High Risk",
+    "district_name": "Purba Medinipur",
+    "state": "West Bengal"
+  },
+  {
+    "district_id": "D0675",
+    "predicted_auth_failure_prob": 15.13,
+    "actual_auth_failure_prob": 15.42,
+    "risk_category": "High Risk",
+    "district_name": "Purulia",
+    "state": "West Bengal"
+  },
+  {
+    "district_id": "D0676",
+    "predicted_auth_failure_prob": 25.08,
+    "actual_auth_failure_prob": 26.94,
+    "risk_category": "High Risk",
+    "district_name": "South 24 Parganas",
+    "state": "West Bengal"
+  },
+  {
+    "district_id": "D0677",
+    "predicted_auth_failure_prob": 33.25,
+    "actual_auth_failure_prob": 34.18,
+    "risk_category": "High Risk",
+    "district_name": "Uttar Dinajpur",
+    "state": "West Bengal"
+  },
+  {
+    "district_id": "D0681",
+    "predicted_auth_failure_prob": 15.43,
+    "actual_auth_failure_prob": 18.06,
+    "risk_category": "High Risk",
+    "district_name": "Chandigarh",
+    "state": "Chandigarh"
+  },
+  {
+    "district_id": "D0682",
+    "predicted_auth_failure_prob": 27.08,
+    "actual_auth_failure_prob": 27.93,
+    "risk_category": "High Risk",
+    "district_name": "Dadra and Nagar Haveli",
+    "state": "Dadra and Nagar Haveli and Daman and Diu"
+  },
+  {
+    "district_id": "D0685",
+    "predicted_auth_failure_prob": 25.49,
+    "actual_auth_failure_prob": 27.44,
+    "risk_category": "High Risk",
+    "district_name": "Anantnag",
+    "state": "Jammu and Kashmir"
+  },
+  {
+    "district_id": "D0686",
+    "predicted_auth_failure_prob": 18.78,
+    "actual_auth_failure_prob": 19.27,
+    "risk_category": "High Risk",
+    "district_name": "Bandipora",
+    "state": "Jammu and Kashmir"
+  },
+  {
+    "district_id": "D0687",
+    "predicted_auth_failure_prob": 20.03,
+    "actual_auth_failure_prob": 21.91,
+    "risk_category": "High Risk",
+    "district_name": "Baramulla",
+    "state": "Jammu and Kashmir"
+  },
+  {
+    "district_id": "D0688",
+    "predicted_auth_failure_prob": 22.68,
+    "actual_auth_failure_prob": 24.2,
+    "risk_category": "High Risk",
+    "district_name": "Budgam",
+    "state": "Jammu and Kashmir"
+  },
+  {
+    "district_id": "D0696",
+    "predicted_auth_failure_prob": 18.69,
+    "actual_auth_failure_prob": 18.2,
+    "risk_category": "High Risk",
+    "district_name": "Poonch",
+    "state": "Jammu and Kashmir"
+  },
+  {
+    "district_id": "D0699",
+    "predicted_auth_failure_prob": 17.69,
+    "actual_auth_failure_prob": 20.63,
+    "risk_category": "High Risk",
+    "district_name": "Ramban",
+    "state": "Jammu and Kashmir"
+  },
+  {
+    "district_id": "D0701",
+    "predicted_auth_failure_prob": 30.26,
+    "actual_auth_failure_prob": 34.22,
+    "risk_category": "High Risk",
+    "district_name": "Samba",
+    "state": "Jammu and Kashmir"
+  },
+  {
+    "district_id": "D0702",
+    "predicted_auth_failure_prob": 16.9,
+    "actual_auth_failure_prob": 15.85,
+    "risk_category": "High Risk",
+    "district_name": "Shopian",
+    "state": "Jammu and Kashmir"
+  },
+  {
+    "district_id": "D0706",
+    "predicted_auth_failure_prob": 15.06,
+    "actual_auth_failure_prob": 14.01,
+    "risk_category": "High Risk",
+    "district_name": "Leh",
+    "state": "Ladakh"
+  },
+  {
+    "district_id": "D0707",
+    "predicted_auth_failure_prob": 19.47,
+    "actual_auth_failure_prob": 16.23,
+    "risk_category": "High Risk",
+    "district_name": "Lakshadweep",
+    "state": "Lakshadweep"
+  },
+  {
+    "district_id": "D0708",
+    "predicted_auth_failure_prob": 22.04,
+    "actual_auth_failure_prob": 32.63,
+    "risk_category": "High Risk",
+    "district_name": "Karaikal",
+    "state": "Puducherry"
+  },
+  {
+    "district_id": "D0709",
+    "predicted_auth_failure_prob": 20.86,
+    "actual_auth_failure_prob": 20.38,
+    "risk_category": "High Risk",
+    "district_name": "Mahe",
+    "state": "Puducherry"
+  }
+]

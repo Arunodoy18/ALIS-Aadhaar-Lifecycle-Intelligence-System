@@ -1,0 +1,326 @@
+[
+  {
+    "state": "Andaman and Nicobar Islands",
+    "avg_uls_score": 73.52,
+    "avg_auth_failure_prob": 2.23,
+    "district_count": 3,
+    "avg_coverage": 88.52,
+    "avg_bio_freshness": 44.67,
+    "risk_level": "Low"
+  },
+  {
+    "state": "Andhra Pradesh",
+    "avg_uls_score": 68.69,
+    "avg_auth_failure_prob": 3.17,
+    "district_count": 13,
+    "avg_coverage": 87.49,
+    "avg_bio_freshness": 39.4,
+    "risk_level": "Medium"
+  },
+  {
+    "state": "Arunachal Pradesh",
+    "avg_uls_score": 69.02,
+    "avg_auth_failure_prob": 4.39,
+    "district_count": 15,
+    "avg_coverage": 87.94,
+    "avg_bio_freshness": 39.58,
+    "risk_level": "Medium"
+  },
+  {
+    "state": "Assam",
+    "avg_uls_score": 69.9,
+    "avg_auth_failure_prob": 4.39,
+    "district_count": 26,
+    "avg_coverage": 88.45,
+    "avg_bio_freshness": 42.73,
+    "risk_level": "Medium"
+  },
+  {
+    "state": "Bihar",
+    "avg_uls_score": 70.34,
+    "avg_auth_failure_prob": 3.74,
+    "district_count": 38,
+    "avg_coverage": 87.33,
+    "avg_bio_freshness": 47.43,
+    "risk_level": "Low"
+  },
+  {
+    "state": "Chandigarh",
+    "avg_uls_score": 87.8,
+    "avg_auth_failure_prob": 2.2,
+    "district_count": 1,
+    "avg_coverage": 85.59,
+    "avg_bio_freshness": 83.6,
+    "risk_level": "Low"
+  },
+  {
+    "state": "Chhattisgarh",
+    "avg_uls_score": 67.21,
+    "avg_auth_failure_prob": 5.31,
+    "district_count": 27,
+    "avg_coverage": 86.2,
+    "avg_bio_freshness": 37.53,
+    "risk_level": "Medium"
+  },
+  {
+    "state": "Dadra and Nagar Haveli and Daman and Diu",
+    "avg_uls_score": 64.59,
+    "avg_auth_failure_prob": 5.11,
+    "district_count": 3,
+    "avg_coverage": 86.0,
+    "avg_bio_freshness": 35.77,
+    "risk_level": "Medium"
+  },
+  {
+    "state": "Delhi",
+    "avg_uls_score": 68.16,
+    "avg_auth_failure_prob": 3.87,
+    "district_count": 11,
+    "avg_coverage": 86.34,
+    "avg_bio_freshness": 42.71,
+    "risk_level": "Medium"
+  },
+  {
+    "state": "Goa",
+    "avg_uls_score": 76.59,
+    "avg_auth_failure_prob": 3.1,
+    "district_count": 2,
+    "avg_coverage": 88.69,
+    "avg_bio_freshness": 65.74,
+    "risk_level": "Low"
+  },
+  {
+    "state": "Gujarat",
+    "avg_uls_score": 68.77,
+    "avg_auth_failure_prob": 4.16,
+    "district_count": 33,
+    "avg_coverage": 88.85,
+    "avg_bio_freshness": 41.16,
+    "risk_level": "Medium"
+  },
+  {
+    "state": "Haryana",
+    "avg_uls_score": 69.66,
+    "avg_auth_failure_prob": 5.14,
+    "district_count": 22,
+    "avg_coverage": 91.41,
+    "avg_bio_freshness": 36.54,
+    "risk_level": "Medium"
+  },
+  {
+    "state": "Himachal Pradesh",
+    "avg_uls_score": 69.06,
+    "avg_auth_failure_prob": 2.73,
+    "district_count": 12,
+    "avg_coverage": 84.48,
+    "avg_bio_freshness": 50.89,
+    "risk_level": "Medium"
+  },
+  {
+    "state": "Jammu and Kashmir",
+    "avg_uls_score": 68.65,
+    "avg_auth_failure_prob": 4.72,
+    "district_count": 20,
+    "avg_coverage": 87.38,
+    "avg_bio_freshness": 42.39,
+    "risk_level": "Medium"
+  },
+  {
+    "state": "Jharkhand",
+    "avg_uls_score": 69.11,
+    "avg_auth_failure_prob": 4.62,
+    "district_count": 24,
+    "avg_coverage": 85.85,
+    "avg_bio_freshness": 39.17,
+    "risk_level": "Medium"
+  },
+  {
+    "state": "Karnataka",
+    "avg_uls_score": 69.28,
+    "avg_auth_failure_prob": 3.71,
+    "district_count": 30,
+    "avg_coverage": 87.92,
+    "avg_bio_freshness": 41.0,
+    "risk_level": "Medium"
+  },
+  {
+    "state": "Kerala",
+    "avg_uls_score": 67.2,
+    "avg_auth_failure_prob": 4.14,
+    "district_count": 14,
+    "avg_coverage": 85.37,
+    "avg_bio_freshness": 32.65,
+    "risk_level": "Medium"
+  },
+  {
+    "state": "Ladakh",
+    "avg_uls_score": 76.09,
+    "avg_auth_failure_prob": 3.58,
+    "district_count": 2,
+    "avg_coverage": 91.0,
+    "avg_bio_freshness": 57.8,
+    "risk_level": "Low"
+  },
+  {
+    "state": "Lakshadweep",
+    "avg_uls_score": 63.17,
+    "avg_auth_failure_prob": 5.98,
+    "district_count": 1,
+    "avg_coverage": 84.78,
+    "avg_bio_freshness": 44.52,
+    "risk_level": "Medium"
+  },
+  {
+    "state": "Madhya Pradesh",
+    "avg_uls_score": 71.3,
+    "avg_auth_failure_prob": 3.23,
+    "district_count": 51,
+    "avg_coverage": 87.55,
+    "avg_bio_freshness": 46.44,
+    "risk_level": "Low"
+  },
+  {
+    "state": "Maharashtra",
+    "avg_uls_score": 70.0,
+    "avg_auth_failure_prob": 3.5,
+    "district_count": 36,
+    "avg_coverage": 86.64,
+    "avg_bio_freshness": 44.64,
+    "risk_level": "Medium"
+  },
+  {
+    "state": "Manipur",
+    "avg_uls_score": 68.87,
+    "avg_auth_failure_prob": 4.62,
+    "district_count": 16,
+    "avg_coverage": 86.72,
+    "avg_bio_freshness": 38.58,
+    "risk_level": "Medium"
+  },
+  {
+    "state": "Meghalaya",
+    "avg_uls_score": 67.76,
+    "avg_auth_failure_prob": 4.83,
+    "district_count": 11,
+    "avg_coverage": 89.14,
+    "avg_bio_freshness": 35.7,
+    "risk_level": "Medium"
+  },
+  {
+    "state": "Mizoram",
+    "avg_uls_score": 68.19,
+    "avg_auth_failure_prob": 4.82,
+    "district_count": 8,
+    "avg_coverage": 87.55,
+    "avg_bio_freshness": 45.38,
+    "risk_level": "Medium"
+  },
+  {
+    "state": "Nagaland",
+    "avg_uls_score": 65.52,
+    "avg_auth_failure_prob": 4.15,
+    "district_count": 11,
+    "avg_coverage": 88.37,
+    "avg_bio_freshness": 31.5,
+    "risk_level": "Medium"
+  },
+  {
+    "state": "Odisha",
+    "avg_uls_score": 70.39,
+    "avg_auth_failure_prob": 4.33,
+    "district_count": 30,
+    "avg_coverage": 89.73,
+    "avg_bio_freshness": 41.47,
+    "risk_level": "Low"
+  },
+  {
+    "state": "Puducherry",
+    "avg_uls_score": 68.54,
+    "avg_auth_failure_prob": 6.21,
+    "district_count": 4,
+    "avg_coverage": 87.28,
+    "avg_bio_freshness": 24.35,
+    "risk_level": "Medium"
+  },
+  {
+    "state": "Punjab",
+    "avg_uls_score": 71.11,
+    "avg_auth_failure_prob": 4.28,
+    "district_count": 22,
+    "avg_coverage": 88.97,
+    "avg_bio_freshness": 46.83,
+    "risk_level": "Low"
+  },
+  {
+    "state": "Rajasthan",
+    "avg_uls_score": 69.65,
+    "avg_auth_failure_prob": 3.9,
+    "district_count": 33,
+    "avg_coverage": 88.43,
+    "avg_bio_freshness": 40.79,
+    "risk_level": "Medium"
+  },
+  {
+    "state": "Sikkim",
+    "avg_uls_score": 70.95,
+    "avg_auth_failure_prob": 4.17,
+    "district_count": 4,
+    "avg_coverage": 88.69,
+    "avg_bio_freshness": 41.46,
+    "risk_level": "Low"
+  },
+  {
+    "state": "Tamil Nadu",
+    "avg_uls_score": 69.09,
+    "avg_auth_failure_prob": 3.67,
+    "district_count": 36,
+    "avg_coverage": 86.22,
+    "avg_bio_freshness": 45.17,
+    "risk_level": "Medium"
+  },
+  {
+    "state": "Telangana",
+    "avg_uls_score": 68.0,
+    "avg_auth_failure_prob": 4.92,
+    "district_count": 33,
+    "avg_coverage": 87.09,
+    "avg_bio_freshness": 40.69,
+    "risk_level": "Medium"
+  },
+  {
+    "state": "Tripura",
+    "avg_uls_score": 69.18,
+    "avg_auth_failure_prob": 3.99,
+    "district_count": 8,
+    "avg_coverage": 87.77,
+    "avg_bio_freshness": 41.61,
+    "risk_level": "Medium"
+  },
+  {
+    "state": "Uttar Pradesh",
+    "avg_uls_score": 70.68,
+    "avg_auth_failure_prob": 3.76,
+    "district_count": 75,
+    "avg_coverage": 86.16,
+    "avg_bio_freshness": 46.67,
+    "risk_level": "Low"
+  },
+  {
+    "state": "Uttarakhand",
+    "avg_uls_score": 69.18,
+    "avg_auth_failure_prob": 5.04,
+    "district_count": 13,
+    "avg_coverage": 85.75,
+    "avg_bio_freshness": 43.8,
+    "risk_level": "Medium"
+  },
+  {
+    "state": "West Bengal",
+    "avg_uls_score": 70.67,
+    "avg_auth_failure_prob": 4.75,
+    "district_count": 23,
+    "avg_coverage": 87.15,
+    "avg_bio_freshness": 45.49,
+    "risk_level": "Low"
+  }
+]

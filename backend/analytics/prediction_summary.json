@@ -1,0 +1,8 @@
+{
+  "total_districts": 711,
+  "low_risk_count": 32,
+  "medium_risk_count": 422,
+  "high_risk_count": 257,
+  "avg_predicted_failure_prob": 13.26,
+  "max_predicted_failure_prob": 33.25
+}
