@@ -1,0 +1,8 @@
+{
+  "projectId": "cbf3d540-57aa-4f1e-8781-e845c448f948",
+  "createdAt": 1768721262050,
+  "version": "1.0",
+  "startupCommands": [
+    "pip install streamlit pandas; python run_streamlit.py"
+  ]
+}
