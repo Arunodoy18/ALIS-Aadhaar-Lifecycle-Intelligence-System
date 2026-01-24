@@ -205,3 +205,28 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Large CSV dataset files
+datasets/api_data_aadhar_biometric/*.csv
+datasets/api_data_aadhar_demographic/*.csv
+datasets/api_data_aadhar_biometric/api_data_aadhar_enrolment/*.csv
+datasets/processed/*.csv
+
+# Node modules
+node_modules/
+frontend/node_modules/
+backend/api/node_modules/
+
+# Next.js build output
+frontend/.next/
+frontend/out/
+
+# Python virtual environment
+.venv/
+venv/
+
+# ML model files (binary)
+*.joblib
+
+# Keep only JSON analytics outputs, exclude large CSV
+backend/analytics/uls_scores.csv

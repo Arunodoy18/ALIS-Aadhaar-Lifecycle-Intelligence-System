@@ -1,56 +1,10 @@
 [
   {
-    "year": 2020,
-    "avg_failure_rate": 0.1346209563994374,
-    "avg_success_rate": 0.8653769338959213,
-    "total_bio_updates": 265526422,
-    "child_bio_updates": 29270651,
-    "total_demo_updates": 97843026,
-    "avg_churn_rate": 0.1755587904360056
-  },
-  {
-    "year": 2021,
-    "avg_failure_rate": 0.13514627285513361,
-    "avg_success_rate": 0.8648537271448663,
-    "total_bio_updates": 267102114,
-    "child_bio_updates": 29162856,
-    "total_demo_updates": 97978544,
-    "avg_churn_rate": 0.17456511954992968
-  },
-  {
-    "year": 2022,
-    "avg_failure_rate": 0.13372039381153306,
-    "avg_success_rate": 0.866279606188467,
-    "total_bio_updates": 264719990,
-    "child_bio_updates": 29356658,
-    "total_demo_updates": 95627767,
-    "avg_churn_rate": 0.17482208157524615
-  },
-  {
-    "year": 2023,
-    "avg_failure_rate": 0.13469817158931083,
-    "avg_success_rate": 0.8653018284106891,
-    "total_bio_updates": 262929029,
-    "child_bio_updates": 28643332,
-    "total_demo_updates": 94816022,
-    "avg_churn_rate": 0.17456933895921237
-  },
-  {
-    "year": 2024,
-    "avg_failure_rate": 0.13614627285513362,
-    "avg_success_rate": 0.8638537271448664,
-    "total_bio_updates": 262824114,
-    "child_bio_updates": 28966492,
-    "total_demo_updates": 96093479,
-    "avg_churn_rate": 0.17424317862165964
-  },
-  {
     "year": 2025,
-    "avg_failure_rate": 0.13243755274261604,
-    "avg_success_rate": 0.867562447257384,
-    "total_bio_updates": 264867904,
-    "child_bio_updates": 29820809,
-    "total_demo_updates": 96052745,
-    "avg_churn_rate": 0.17314050632911393
+    "avg_failure_rate": 0.05493738920947071,
+    "total_bio_updates": 69763095,
+    "avg_bio_age": 1052.0910624287774,
+    "total_demo_updates": 49295187,
+    "avg_churn_rate": 0.1363232430104464
   }
 ]

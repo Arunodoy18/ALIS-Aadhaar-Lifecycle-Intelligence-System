@@ -5,8 +5,20 @@ import json
 import warnings
 warnings.filterwarnings('ignore')
 
+# Custom JSON encoder to handle NaN values
+class NanSafeEncoder(json.JSONEncoder):
+    def encode(self, obj):
+        if isinstance(obj, float):
+            if np.isnan(obj) or np.isinf(obj):
+                return 'null'
+        return super().encode(obj)
+    
+    def iterencode(self, obj, _one_shot=False):
+        for chunk in super().iterencode(obj, _one_shot):
+            yield chunk.replace('NaN', 'null').replace('Infinity', 'null').replace('-Infinity', 'null')
+
 class LifecycleAnalytics:
-    def __init__(self, data_path="datasets/"):
+    def __init__(self, data_path="../../datasets/processed/"):
         self.data_path = data_path
         self.enrolment_df = None
         self.demographic_df = None
@@ -22,7 +34,7 @@ class LifecycleAnalytics:
         print(f"Loaded data for {len(self.enrolment_df)} districts")
         
     def compute_coverage_ratio(self):
-        coverage = self.enrolment_df[['district_id', 'district_name', 'state', 'coverage_ratio']].copy()
+        coverage = self.enrolment_df[['district_id', 'district', 'state', 'coverage_ratio']].copy()
         coverage['coverage_score'] = coverage['coverage_ratio'] * 100
         return coverage
     
@@ -105,7 +117,7 @@ class LifecycleAnalytics:
         for _, row in uls_df.iterrows():
             district_recs = {
                 'district_id': row['district_id'],
-                'district_name': row['district_name'],
+                'district_name': row['district'],
                 'state': row['state'],
                 'uls_score': row['uls_score'],
                 'risk_classification': row['risk_classification'],
@@ -167,9 +179,8 @@ class LifecycleAnalytics:
     def get_trend_data(self):
         yearly_stats = self.biometric_df.groupby('year').agg({
             'biometric_failure_rate': 'mean',
-            'authentication_success_rate': 'mean',
             'total_biometric_updates': 'sum',
-            'child_biometric_updates': 'sum'
+            'avg_biometric_age_days': 'mean'
         }).reset_index()
         
         demo_yearly = self.demographic_df.groupby('year').agg({
@@ -178,8 +189,8 @@ class LifecycleAnalytics:
         }).reset_index()
         
         trends = yearly_stats.merge(demo_yearly, on='year')
-        trends.columns = ['year', 'avg_failure_rate', 'avg_success_rate', 
-                         'total_bio_updates', 'child_bio_updates',
+        trends.columns = ['year', 'avg_failure_rate', 
+                         'total_bio_updates', 'avg_bio_age',
                          'total_demo_updates', 'avg_churn_rate']
         
         return trends.to_dict(orient='records')
@@ -203,9 +214,21 @@ class LifecycleAnalytics:
             lambda x: 'Low' if x >= 70 else ('Medium' if x >= 50 else 'High')
         )
         
-        return state_summary.round(2).to_dict(orient='records')
+        return state_summary.round(2).fillna(0).to_dict(orient='records')
     
-    def export_results(self, output_path="backend/analytics/"):
+    def _clean_for_json(self, data):
+        """Replace NaN/inf values with None for JSON serialization"""
+        if isinstance(data, list):
+            return [self._clean_for_json(item) for item in data]
+        elif isinstance(data, dict):
+            return {k: self._clean_for_json(v) for k, v in data.items()}
+        elif isinstance(data, float):
+            if np.isnan(data) or np.isinf(data):
+                return None
+            return data
+        return data
+    
+    def export_results(self, output_path="./"):
         if self.uls_results is None:
             self.compute_universal_lifecycle_score()
         
@@ -213,21 +236,21 @@ class LifecycleAnalytics:
         
         recommendations = self.generate_recommendations(self.uls_results)
         with open(f"{output_path}recommendations.json", 'w') as f:
-            json.dump(recommendations, f, indent=2)
+            json.dump(self._clean_for_json(recommendations), f, indent=2)
         
         trends = self.get_trend_data()
         with open(f"{output_path}trends.json", 'w') as f:
-            json.dump(trends, f, indent=2)
+            json.dump(self._clean_for_json(trends), f, indent=2)
         
         state_summary = self.get_state_summary()
         with open(f"{output_path}state_summary.json", 'w') as f:
-            json.dump(state_summary, f, indent=2)
+            json.dump(self._clean_for_json(state_summary), f, indent=2)
         
         high_risk = self.uls_results[self.uls_results['risk_classification'] == 'High Risk']
-        high_risk_list = high_risk[['district_id', 'district_name', 'state', 'uls_score', 
-                                     'auth_failure_probability']].to_dict(orient='records')
+        high_risk_list = high_risk[['district_id', 'district', 'state', 'uls_score', 
+                                     'auth_failure_probability']].fillna(0).to_dict(orient='records')
         with open(f"{output_path}high_risk_districts.json", 'w') as f:
-            json.dump(high_risk_list, f, indent=2)
+            json.dump(self._clean_for_json(high_risk_list), f, indent=2)
         
         summary = {
             'total_districts': len(self.uls_results),

@@ -1,0 +1,10 @@
+[
+  {
+    "year": 2025,
+    "avg_failure_rate": 0.05493738920947071,
+    "total_bio_updates": 69763095,
+    "avg_bio_age": 1052.0910624287774,
+    "total_demo_updates": 49295187,
+    "avg_churn_rate": 0.1363232430104464
+  }
+]

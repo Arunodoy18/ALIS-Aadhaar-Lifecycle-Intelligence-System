@@ -200,8 +200,8 @@ export default function DashboardPage() {
               </tr>
             </thead>
             <tbody className="bg-white divide-y divide-gray-200">
-              {highRiskDistricts.map((district) => (
-                <tr key={district.district_id} className="hover:bg-gray-50">
+              {highRiskDistricts.map((district, index) => (
+                <tr key={`${district.district_id}-${index}`} className="hover:bg-gray-50">
                   <td className="px-4 py-3 whitespace-nowrap font-medium text-gray-900">
                     {district.district_name}
                   </td>

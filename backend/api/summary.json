@@ -1,0 +1,9 @@
+{
+  "total_districts": 50883,
+  "stable_count": 29889,
+  "watchlist_count": 20924,
+  "high_risk_count": 70,
+  "avg_uls_score": 71.81,
+  "avg_auth_failure_prob": 1.62,
+  "generated_at": "2026-01-24T23:00:40.727325"
+}

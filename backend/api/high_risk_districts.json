@@ -1,0 +1,492 @@
+[
+  {
+    "district_id": 55,
+    "district": "Harda *",
+    "state": "Madhya Pradesh",
+    "uls_score": 49.94,
+    "auth_failure_probability": 3.82
+  },
+  {
+    "district_id": 55,
+    "district": "Harda *",
+    "state": "Madhya Pradesh",
+    "uls_score": 49.42,
+    "auth_failure_probability": 3.86
+  },
+  {
+    "district_id": 106,
+    "district": "Banaskantha",
+    "state": "Gujarat",
+    "uls_score": 49.01,
+    "auth_failure_probability": 3.66
+  },
+  {
+    "district_id": 106,
+    "district": "Banaskantha",
+    "state": "Gujarat",
+    "uls_score": 49.08,
+    "auth_failure_probability": 3.66
+  },
+  {
+    "district_id": 184,
+    "district": "South 24 Parganas",
+    "state": "West Bengal",
+    "uls_score": 49.8,
+    "auth_failure_probability": 4.5
+  },
+  {
+    "district_id": 273,
+    "district": "Bhagalpur",
+    "state": "Bihar",
+    "uls_score": 49.81,
+    "auth_failure_probability": 4.44
+  },
+  {
+    "district_id": 310,
+    "district": "Jamui",
+    "state": "Bihar",
+    "uls_score": 49.1,
+    "auth_failure_probability": 4.76
+  },
+  {
+    "district_id": 364,
+    "district": "Shimoga",
+    "state": "Karnataka",
+    "uls_score": 49.05,
+    "auth_failure_probability": 4.18
+  },
+  {
+    "district_id": 364,
+    "district": "Shimoga",
+    "state": "Karnataka",
+    "uls_score": 49.15,
+    "auth_failure_probability": 4.17
+  },
+  {
+    "district_id": 364,
+    "district": "Shimoga",
+    "state": "Karnataka",
+    "uls_score": 49.88,
+    "auth_failure_probability": 4.11
+  },
+  {
+    "district_id": 364,
+    "district": "Shimoga",
+    "state": "Karnataka",
+    "uls_score": 49.64,
+    "auth_failure_probability": 4.13
+  },
+  {
+    "district_id": 561,
+    "district": "East Garo Hills",
+    "state": "Meghalaya",
+    "uls_score": 48.49,
+    "auth_failure_probability": 5.09
+  },
+  {
+    "district_id": 613,
+    "district": "Gajapati",
+    "state": "Odisha",
+    "uls_score": 49.46,
+    "auth_failure_probability": 4.14
+  },
+  {
+    "district_id": 658,
+    "district": "Rangareddi",
+    "state": "Andhra Pradesh",
+    "uls_score": 49.71,
+    "auth_failure_probability": 3.65
+  },
+  {
+    "district_id": 743,
+    "district": "Nicobar",
+    "state": "Andaman and Nicobar Islands",
+    "uls_score": 49.62,
+    "auth_failure_probability": 4.24
+  },
+  {
+    "district_id": 743,
+    "district": "Nicobar",
+    "state": "Andaman and Nicobar Islands",
+    "uls_score": 49.5,
+    "auth_failure_probability": 4.25
+  },
+  {
+    "district_id": 743,
+    "district": "Nicobar",
+    "state": "Andaman and Nicobar Islands",
+    "uls_score": 49.94,
+    "auth_failure_probability": 5.0
+  },
+  {
+    "district_id": 743,
+    "district": "Nicobar",
+    "state": "Andaman and Nicobar Islands",
+    "uls_score": 49.62,
+    "auth_failure_probability": 4.24
+  },
+  {
+    "district_id": 743,
+    "district": "Nicobar",
+    "state": "Andaman and Nicobar Islands",
+    "uls_score": 49.12,
+    "auth_failure_probability": 4.29
+  },
+  {
+    "district_id": 743,
+    "district": "Nicobar",
+    "state": "Andaman and Nicobar Islands",
+    "uls_score": 49.56,
+    "auth_failure_probability": 5.03
+  },
+  {
+    "district_id": 873,
+    "district": "Tirap",
+    "state": "Arunachal Pradesh",
+    "uls_score": 49.18,
+    "auth_failure_probability": 4.93
+  },
+  {
+    "district_id": 919,
+    "district": "Kandhamal",
+    "state": "Orissa",
+    "uls_score": 49.66,
+    "auth_failure_probability": 3.61
+  },
+  {
+    "district_id": 919,
+    "district": "Kandhamal",
+    "state": "Orissa",
+    "uls_score": 49.16,
+    "auth_failure_probability": 3.65
+  },
+  {
+    "district_id": 919,
+    "district": "Kandhamal",
+    "state": "Orissa",
+    "uls_score": 49.41,
+    "auth_failure_probability": 3.63
+  },
+  {
+    "district_id": 963,
+    "district": "Burdwan",
+    "state": "West Bengal",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 963,
+    "district": "Burdwan",
+    "state": "West Bengal",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1035,
+    "district": "Bokaro *",
+    "state": "Jharkhand",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1035,
+    "district": "Bokaro *",
+    "state": "Jharkhand",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1035,
+    "district": "Bokaro *",
+    "state": "Jharkhand",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1052,
+    "district": "Bandipur",
+    "state": "Jammu & Kashmir",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1073,
+    "district": "Mangan",
+    "state": "Sikkim",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1073,
+    "district": "Mangan",
+    "state": "Sikkim",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1073,
+    "district": "Mangan",
+    "state": "Sikkim",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1073,
+    "district": "Mangan",
+    "state": "Sikkim",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1086,
+    "district": "100000",
+    "state": "100000",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1098,
+    "district": "Bengaluru Urban",
+    "state": "Karnataka",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1099,
+    "district": "Purbi Champaran",
+    "state": "Bihar",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1100,
+    "district": "Gurugram",
+    "state": "Haryana",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1101,
+    "district": "Coochbehar",
+    "state": "West Bengal",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1102,
+    "district": "Dinajpur Uttar",
+    "state": "West Bengal",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1103,
+    "district": "Spsr Nellore",
+    "state": "Andhra Pradesh",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1104,
+    "district": "24 Paraganas North",
+    "state": "West Bengal",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1105,
+    "district": "Dadra And Nagar Haveli",
+    "state": "The Dadra And Nagar Haveli And Daman And Diu",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1106,
+    "district": "Dang",
+    "state": "Gujarat",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1107,
+    "district": "Shravasti",
+    "state": "Uttar Pradesh",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1108,
+    "district": "Medinipur West",
+    "state": "West Bengal",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1109,
+    "district": "Gaurella Pendra Marwahi",
+    "state": "Chhattisgarh",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1110,
+    "district": "Visakhapatanam",
+    "state": "Andhra Pradesh",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1111,
+    "district": "Nuh",
+    "state": "Haryana",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1112,
+    "district": "Ashoknagar",
+    "state": "Madhya Pradesh",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1113,
+    "district": "S.A.S Nagar",
+    "state": "Punjab",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1114,
+    "district": "Medchal Malkajgiri",
+    "state": "Telangana",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1115,
+    "district": "Sivasagar",
+    "state": "Assam",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1116,
+    "district": "Siddharth Nagar",
+    "state": "Uttar Pradesh",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1117,
+    "district": "Kamrup",
+    "state": "Meghalaya",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1118,
+    "district": "Ahmednagar",
+    "state": "Maharashtra",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1119,
+    "district": "24 Paraganas South",
+    "state": "West Bengal",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1120,
+    "district": "Nabarangpur",
+    "state": "Odisha",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1121,
+    "district": "Ramanagara",
+    "state": "Karnataka",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1122,
+    "district": "East Singhbum",
+    "state": "Jharkhand",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1123,
+    "district": "Ranga Reddy",
+    "state": "Telangana",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1124,
+    "district": "Dinajpur Dakshin",
+    "state": "West Bengal",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1125,
+    "district": "Shopian",
+    "state": "Jammu And Kashmir",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1126,
+    "district": "Kushi Nagar",
+    "state": "Uttar Pradesh",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1127,
+    "district": "Doda",
+    "state": "Jammu And Kashmir",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1128,
+    "district": "Jhajjar *",
+    "state": "Haryana",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1129,
+    "district": "North East   *",
+    "state": "Delhi",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1130,
+    "district": "Namakkal   *",
+    "state": "Tamil Nadu",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1131,
+    "district": "Kendrapara *",
+    "state": "Orissa",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  },
+  {
+    "district_id": 1132,
+    "district": "punch",
+    "state": "Jammu and Kashmir",
+    "uls_score": 0.0,
+    "auth_failure_probability": 0.0
+  }
+]
