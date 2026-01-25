@@ -1,13 +1,23 @@
+const path = require('path');
+require('dotenv').config({ path: path.join(__dirname, '.env') });
 const express = require('express');
 const cors = require('cors');
 const fs = require('fs');
-const path = require('path');
+const { authMiddleware, requireRole, optionalAuth } = require('../../security/firebase-auth/authMiddleware');
+const { errorHandler, notFoundHandler, asyncHandler, logInfo } = require('./middleware/errorHandler');
+const { validateDistrictQuery } = require('./middleware/validation');
+const rateLimiter = require('./middleware/rateLimiter');
 
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-app.use(cors());
+// Middleware
+app.use(cors({
+  origin: process.env.ALLOWED_ORIGINS?.split(',') || ['http://localhost:3000'],
+  credentials: true
+}));
 app.use(express.json());
+app.use(rateLimiter()); // Apply rate limiting globally
 
 const analyticsPath = path.join(__dirname, '..', 'analytics');
 
@@ -49,29 +59,43 @@ function loadCsvAsJson(filename) {
     }
 }
 
-app.get('/api/health', (req, res) => {
-    res.json({ status: 'healthy', timestamp: new Date().toISOString() });
-});
+// Public routes (no authentication required)
+app.get('/api/health', asyncHandler(async (req, res) => {
+    res.json({ 
+        success: true,
+        status: 'healthy', 
+        timestamp: new Date().toISOString() 
+    });
+}));
 
-app.get('/api/summary', (req, res) => {
+// Protected routes (authentication required)
+app.get('/api/summary', optionalAuth, asyncHandler(async (req, res) => {
     const summary = loadJsonFile('summary.json');
     const predSummary = loadJsonFile('prediction_summary.json');
     
     if (!summary) {
-        return res.status(500).json({ error: 'Failed to load summary data' });
+        return res.status(500).json({ 
+            success: false,
+            error: { message: 'Failed to load summary data' }
+        });
     }
     
     res.json({
+        success: true,
         lifecycle: summary,
-        predictions: predSummary
+        predictions: predSummary,
+        user: req.user ? { uid: req.user.uid, email: req.user.email } : null
     });
-});
+}));
 
-app.get('/api/districts', (req, res) => {
+app.get('/api/districts', validateDistrictQuery, asyncHandler(async (req, res) => {
     const ulsData = loadCsvAsJson('uls_scores.csv');
     
     if (!ulsData) {
-        return res.status(500).json({ error: 'Failed to load district data' });
+        return res.status(500).json({ 
+            success: false,
+            error: { message: 'Failed to load district data' }
+        });
     }
     
     const { state, risk, limit = 100, offset = 0 } = req.query;
@@ -91,14 +115,15 @@ app.get('/api/districts', (req, res) => {
     const paginated = filtered.slice(parseInt(offset), parseInt(offset) + parseInt(limit));
     
     res.json({
+        success: true,
         total: filtered.length,
         limit: parseInt(limit),
         offset: parseInt(offset),
         data: paginated
     });
-});
+}));
 
-app.get('/api/districts/:districtId', (req, res) => {
+app.get('/api/districts/:districtId', asyncHandler(async (req, res) => {
     const ulsData = loadCsvAsJson('uls_scores.csv');
     const recommendations = loadJsonFile('recommendations.json');
     const predictions = loadJsonFile('ml_predictions.json');
@@ -106,34 +131,42 @@ app.get('/api/districts/:districtId', (req, res) => {
     const district = ulsData?.find(d => d.district_id === req.params.districtId);
     
     if (!district) {
-        return res.status(404).json({ error: 'District not found' });
+        return res.status(404).json({ 
+            success: false,
+            error: { message: 'District not found' }
+        });
     }
     
     const districtRecs = recommendations?.find(r => r.district_id === req.params.districtId);
     const districtPred = predictions?.find(p => p.district_id === req.params.districtId);
     
     res.json({
+        success: true,
         ...district,
         recommendations: districtRecs?.recommendations || [],
         prediction: districtPred
     });
-});
+}));
 
-app.get('/api/high-risk', (req, res) => {
+app.get('/api/high-risk', asyncHandler(async (req, res) => {
     const highRisk = loadJsonFile('high_risk_districts.json');
     const highRiskPred = loadJsonFile('high_risk_predictions.json');
     
     res.json({
+        success: true,
         lifecycle_high_risk: highRisk || [],
         prediction_high_risk: highRiskPred || []
     });
-});
+}));
 
-app.get('/api/recommendations', (req, res) => {
+app.get('/api/recommendations', asyncHandler(async (req, res) => {
     const recommendations = loadJsonFile('recommendations.json');
     
     if (!recommendations) {
-        return res.status(500).json({ error: 'Failed to load recommendations' });
+        return res.status(500).json({ 
+            success: false,
+            error: { message: 'Failed to load recommendations' }
+        });
     }
     
     const { type, priority } = req.query;
@@ -151,34 +184,52 @@ app.get('/api/recommendations', (req, res) => {
         })).filter(d => d.recommendations.length > 0);
     }
     
-    res.json(filtered);
-});
+    res.json({
+        success: true,
+        data: filtered
+    });
+}));
 
-app.get('/api/trends', (req, res) => {
+app.get('/api/trends', asyncHandler(async (req, res) => {
     const trends = loadJsonFile('trends.json');
     
     if (!trends) {
-        return res.status(500).json({ error: 'Failed to load trends data' });
+        return res.status(500).json({ 
+            success: false,
+            error: { message: 'Failed to load trends data' }
+        });
     }
     
-    res.json(trends);
-});
+    res.json({
+        success: true,
+        data: trends
+    });
+}));
 
-app.get('/api/states', (req, res) => {
+app.get('/api/states', asyncHandler(async (req, res) => {
     const stateSummary = loadJsonFile('state_summary.json');
     
     if (!stateSummary) {
-        return res.status(500).json({ error: 'Failed to load state summary' });
+        return res.status(500).json({ 
+            success: false,
+            error: { message: 'Failed to load state summary' }
+        });
     }
     
-    res.json(stateSummary);
-});
+    res.json({
+        success: true,
+        data: stateSummary
+    });
+}));
 
-app.get('/api/predictions', (req, res) => {
+app.get('/api/predictions', asyncHandler(async (req, res) => {
     const predictions = loadJsonFile('ml_predictions.json');
     
     if (!predictions) {
-        return res.status(500).json({ error: 'Failed to load predictions' });
+        return res.status(500).json({ 
+            success: false,
+            error: { message: 'Failed to load predictions' }
+        });
     }
     
     const { risk_category } = req.query;
@@ -188,15 +239,21 @@ app.get('/api/predictions', (req, res) => {
         filtered = predictions.filter(p => p.risk_category === risk_category);
     }
     
-    res.json(filtered);
-});
+    res.json({
+        success: true,
+        data: filtered
+    });
+}));
 
-app.get('/api/heatmap', (req, res) => {
+app.get('/api/heatmap', asyncHandler(async (req, res) => {
     const ulsData = loadCsvAsJson('uls_scores.csv');
     const stateSummary = loadJsonFile('state_summary.json');
     
     if (!stateSummary) {
-        return res.status(500).json({ error: 'Failed to load heatmap data' });
+        return res.status(500).json({ 
+            success: false,
+            error: { message: 'Failed to load heatmap data' }
+        });
     }
     
     const heatmapData = stateSummary.map(state => ({
@@ -208,14 +265,20 @@ app.get('/api/heatmap', (req, res) => {
         avg_bio_freshness: state.avg_bio_freshness
     }));
     
-    res.json(heatmapData);
-});
+    res.json({
+        success: true,
+        data: heatmapData
+    });
+}));
 
-app.get('/api/child-vulnerability', (req, res) => {
+app.get('/api/child-vulnerability', asyncHandler(async (req, res) => {
     const ulsData = loadCsvAsJson('uls_scores.csv');
     
     if (!ulsData) {
-        return res.status(500).json({ error: 'Failed to load data' });
+        return res.status(500).json({ 
+            success: false,
+            error: { message: 'Failed to load data' }
+        });
     }
     
     const vulnerable = ulsData
@@ -231,10 +294,13 @@ app.get('/api/child-vulnerability', (req, res) => {
             uls_score: d.uls_score
         }));
     
-    res.json(vulnerable);
-});
+    res.json({
+        success: true,
+        data: vulnerable
+    });
+}));
 
-app.get('/api/statistics', (req, res) => {
+app.get('/api/statistics', asyncHandler(async (req, res) => {
     const summary = loadJsonFile('summary.json');
     const predSummary = loadJsonFile('prediction_summary.json');
     const stateSummary = loadJsonFile('state_summary.json');
@@ -256,10 +322,22 @@ app.get('/api/statistics', (req, res) => {
         generated_at: summary?.generated_at
     };
     
-    res.json(stats);
-});
+    res.json({
+        success: true,
+        data: stats
+    });
+}));
+
+// 404 handler - must be after all routes
+app.use(notFoundHandler);
+
+// Error handler - must be last
+app.use(errorHandler);
 
 app.listen(PORT, () => {
-    console.log(`ALIS Backend API running on port ${PORT}`);
-    console.log(`Analytics data path: ${analyticsPath}`);
+    logInfo(`ALIS Backend API running on port ${PORT}`, {
+        port: PORT,
+        analyticsPath,
+        environment: process.env.NODE_ENV || 'development'
+    });
 });

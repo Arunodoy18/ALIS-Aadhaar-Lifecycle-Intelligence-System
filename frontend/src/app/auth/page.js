@@ -2,35 +2,24 @@
 
 import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import { 
-  loginWithEmail, 
-  signupWithEmail, 
-  signInWithGoogle, 
-  subscribeToAuthChanges 
-} from '@/lib/auth';
+import { useAuth } from '@/contexts/AuthContext';
 
 export default function AuthPage() {
   const router = useRouter();
+  const { user, signIn, signUp, signInWithGoogle, loading: authLoading } = useAuth();
   const [isLogin, setIsLogin] = useState(true);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
-  const [isCheckingAuth, setIsCheckingAuth] = useState(true);
 
-  // Check if user is already logged in
+  // Redirect if already logged in
   useEffect(() => {
-    const unsubscribe = subscribeToAuthChanges((user) => {
-      if (user) {
-        // User is logged in, redirect to dashboard
-        router.push('/');
-      }
-      setIsCheckingAuth(false);
-    });
-
-    return () => unsubscribe();
-  }, [router]);
+    if (!authLoading && user) {
+      router.push('/');
+    }
+  }, [user, authLoading, router]);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -39,19 +28,20 @@ export default function AuthPage() {
 
     try {
       if (isLogin) {
-        // Login with email
-        await loginWithEmail(email, password);
+        const { user, error } = await signIn(email, password);
+        if (error) throw new Error(error);
       } else {
-        // Validate passwords match
         if (password !== confirmPassword) {
           throw new Error('Passwords do not match');
         }
-        // Sign up with email
-        await signupWithEmail(email, password);
+        const { user, error } = await signUp(email, password);
+        if (error) throw new Error(error);
       }
-      // Redirect will happen automatically via useEffect
-    } catch (err: any) {
+      }
+      router.push('/');
+    } catch (err) {
       setError(err.message || 'Authentication failed');
+    } finally {
       setLoading(false);
     }
   };
@@ -61,15 +51,17 @@ export default function AuthPage() {
     setLoading(true);
 
     try {
-      await signInWithGoogle();
-      // Redirect will happen automatically via useEffect
-    } catch (err: any) {
+      const { user, error } = await signInWithGoogle();
+      if (error) throw new Error(error);
+      router.push('/');
+    } catch (err) {
       setError(err.message || 'Google sign-in failed');
+    } finally {
       setLoading(false);
     }
   };
 
-  if (isCheckingAuth) {
+  if (authLoading) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-indigo-50 flex items-center justify-center">
         <div className="text-center">

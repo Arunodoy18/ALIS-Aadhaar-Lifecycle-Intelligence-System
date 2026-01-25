@@ -230,3 +230,15 @@ venv/
 
 # Keep only JSON analytics outputs, exclude large CSV
 backend/analytics/uls_scores.csv
+
+# AI-generated documentation and guide files
+FIREBASE_*.md
+AUTH_*.md
+START_HERE_*.md
+*_GUIDE.md
+*_SUMMARY.md
+*_CHECKLIST.md
+*_INDEX.md
+*_MANIFEST.md
+*_FLOWS.md
+*_COMPLETE.md

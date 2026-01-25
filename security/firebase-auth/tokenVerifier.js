@@ -1,62 +1,98 @@
 /**
  * Firebase Token Verifier
- * This is a placeholder file for teammate implementation
- * 
- * TODO: Implement Firebase Admin SDK token verification
- * - Initialize Firebase Admin
- * - Verify ID tokens
- * - Handle token refresh
+ * Backend token verification using Firebase Admin SDK
  */
 
-// TODO: Initialize Firebase Admin SDK
-// const admin = require('firebase-admin');
-// const serviceAccount = require('./serviceAccountKey.json');
-// 
-// admin.initializeApp({
-//     credential: admin.credential.cert(serviceAccount)
-// });
+const admin = require('firebase-admin');
+
+// Initialize Firebase Admin SDK
+let adminInitialized = false;
+
+function initializeFirebaseAdmin() {
+    if (adminInitialized) {
+        return;
+    }
+
+    try {
+        // Try to load service account key file
+        const serviceAccount = require('./serviceAccountKey.json');
+        admin.initializeApp({
+            credential: admin.credential.cert(serviceAccount)
+        });
+        console.log('✓ Firebase Admin initialized with service account');
+        adminInitialized = true;
+    } catch (error) {
+        // Fallback to environment variables for cloud deployment
+        if (process.env.FIREBASE_ADMIN_PROJECT_ID) {
+            admin.initializeApp({
+                credential: admin.credential.cert({
+                    projectId: process.env.FIREBASE_ADMIN_PROJECT_ID,
+                    clientEmail: process.env.FIREBASE_ADMIN_CLIENT_EMAIL,
+                    privateKey: process.env.FIREBASE_ADMIN_PRIVATE_KEY?.replace(/\\n/g, '\n')
+                })
+            });
+            console.log('✓ Firebase Admin initialized with environment variables');
+            adminInitialized = true;
+        } else {
+            console.warn('⚠ Firebase Admin not initialized - running in DEV mode');
+            console.warn('  Add serviceAccountKey.json or set FIREBASE_ADMIN_* env variables');
+        }
+    }
+}
+
+// Initialize on module load
+initializeFirebaseAdmin();
 
 async function verifyIdToken(idToken) {
-    // TODO: Implement token verification
-    // try {
-    //     const decodedToken = await admin.auth().verifyIdToken(idToken);
-    //     return {
-    //         valid: true,
-    //         uid: decodedToken.uid,
-    //         email: decodedToken.email,
-    //         emailVerified: decodedToken.email_verified,
-    //         expiresAt: decodedToken.exp
-    //     };
-    // } catch (error) {
-    //     return { valid: false, error: error.message };
-    // }
-    
-    console.warn('WARNING: Token verification not implemented');
-    return { valid: true, uid: 'dev-user' };
+    if (!adminInitialized) {
+        console.warn('WARNING: Firebase Admin not initialized - allowing dev access');
+        return { valid: true, uid: 'dev-user', email: 'dev@example.com' };
+    }
+
+    try {
+        const decodedToken = await admin.auth().verifyIdToken(idToken);
+        return {
+            valid: true,
+            uid: decodedToken.uid,
+            email: decodedToken.email,
+            emailVerified: decodedToken.email_verified,
+            role: decodedToken.role || 'viewer',
+            expiresAt: decodedToken.exp
+        };
+    } catch (error) {
+        console.error('Token verification failed:', error.message);
+        return { valid: false, error: error.message };
+    }
 }
 
 async function createCustomToken(uid, claims = {}) {
-    // TODO: Create custom token for server-side authentication
-    // return await admin.auth().createCustomToken(uid, claims);
-    throw new Error('Custom token creation not implemented');
+    if (!adminInitialized) {
+        throw new Error('Firebase Admin not initialized');
+    }
+    return await admin.auth().createCustomToken(uid, claims);
 }
 
 async function revokeRefreshTokens(uid) {
-    // TODO: Revoke user's refresh tokens
-    // await admin.auth().revokeRefreshTokens(uid);
-    throw new Error('Token revocation not implemented');
+    if (!adminInitialized) {
+        throw new Error('Firebase Admin not initialized');
+    }
+    await admin.auth().revokeRefreshTokens(uid);
+    console.log(`Revoked refresh tokens for user: ${uid}`);
 }
 
 async function getUserByEmail(email) {
-    // TODO: Get user record by email
-    // return await admin.auth().getUserByEmail(email);
-    throw new Error('Get user not implemented');
+    if (!adminInitialized) {
+        throw new Error('Firebase Admin not initialized');
+    }
+    return await admin.auth().getUserByEmail(email);
 }
 
 async function setCustomUserClaims(uid, claims) {
-    // TODO: Set custom claims for role-based access
-    // await admin.auth().setCustomUserClaims(uid, claims);
-    throw new Error('Custom claims not implemented');
+    if (!adminInitialized) {
+        throw new Error('Firebase Admin not initialized');
+    }
+    await admin.auth().setCustomUserClaims(uid, claims);
+    console.log(`Set custom claims for ${uid}:`, claims);
 }
 
 function validateRequestOrigin(req) {

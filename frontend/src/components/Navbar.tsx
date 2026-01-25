@@ -10,9 +10,12 @@ import {
   Baby, 
   AlertTriangle,
   Menu,
-  X
+  X,
+  LogOut,
+  User
 } from 'lucide-react';
 import { useState } from 'react';
+import { useAuth } from '@/contexts/AuthContext';
 
 const navItems = [
   { href: '/', label: 'Dashboard', icon: LayoutDashboard },
@@ -26,6 +29,11 @@ const navItems = [
 export function Navbar() {
   const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false);
+  const { user, logout } = useAuth();
+
+  const handleLogout = async () => {
+    await logout();
+  };
 
   return (
     <nav className="bg-gradient-to-r from-blue-900 to-blue-800 text-white shadow-lg sticky top-0 z-50">
@@ -57,6 +65,22 @@ export function Navbar() {
                       : 'text-blue-100 hover:bg-white/10 hover:text-white'
                   }`}
                 >
+            
+            {user && (
+              <div className="flex items-center ml-4 space-x-2">
+                <div className="flex items-center px-3 py-1 bg-white/10 rounded-md text-sm">
+                  <User className="w-4 h-4 mr-2" />
+                  <span className="text-blue-100">{user.email}</span>
+                </div>
+                <button
+                  onClick={handleLogout}
+                  className="flex items-center px-3 py-2 rounded-md text-sm font-medium text-blue-100 hover:bg-white/10 hover:text-white transition-all"
+                >
+                  <LogOut className="w-4 h-4 mr-1.5" />
+                  Logout
+                </button>
+              </div>
+            )}
                   <Icon className="w-4 h-4 mr-1.5" />
                   {item.label}
                 </Link>

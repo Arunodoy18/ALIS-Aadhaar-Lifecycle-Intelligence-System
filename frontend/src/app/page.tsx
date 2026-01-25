@@ -12,6 +12,7 @@ import {
   TrendingDown
 } from 'lucide-react';
 import { api, Statistics, District, StateSummary } from '@/lib/api';
+import { getDisplayError } from '@/lib/errorHandling';
 import { StatCard, RiskBadge, LoadingSpinner, ErrorMessage, ProgressBar } from '@/components/ui';
 import { 
   BarChart, 
